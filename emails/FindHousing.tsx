@@ -198,7 +198,6 @@ export const FindHousingEmail = () => (
             gap: "32px",
             position: "absolute",
             justifyContent: "center",
-            border: "2px solid black",
           }}
         >
           <div
@@ -214,6 +213,7 @@ export const FindHousingEmail = () => (
               alignItems: "center",
               justifyContent: "center",
               display: "flex",
+              marginBottom: "20px",
               color: "#515558",
             }}
           >
@@ -227,7 +227,6 @@ export const FindHousingEmail = () => (
               height: "70px",
               gap: "42px",
               display: "flex",
-              border: "2px solid black",
             }}
           >
             <div
@@ -281,7 +280,6 @@ export const FindHousingEmail = () => (
                 right: 0,
                 display: "flex",
                 flexDirection: "column",
-                border: "2px solid red",
               }}
             >
               <div
@@ -329,7 +327,6 @@ export const FindHousingEmail = () => (
               gap: "8px",
               display: "flex",
               position: "relative",
-              border: "2px solid yellow",
             }}
           >
             <div
@@ -341,7 +338,6 @@ export const FindHousingEmail = () => (
                 position: "absolute",
                 bottom: "0",
                 left: "0",
-                border: "2px solid yellow",
               }}
             >
               <div
@@ -372,6 +368,53 @@ export const FindHousingEmail = () => (
                   position: "absolute",
                   bottom: 0,
                   left: 0,
+                  color: "#545558",
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur elit. Vivamus in velit
+                interdum, facilisis lectus quis.
+              </div>
+            </div>
+
+            <div
+              //bottom right frame
+              style={{
+                width: "250px",
+                height: "68px",
+                gap: "8px",
+                bottom: 0,
+                right: 0,
+                position: "absolute",
+              }}
+            >
+              <div
+                //Move-in/Out Support section
+                style={{
+                  width: "250px",
+                  height: "26px",
+                  transform: "rotate(0deg)",
+                  fontFamily: "Roboto, sans-serif",
+                  fontWeight: 800,
+                  fontSize: "16 px",
+                  lineHeight: "26px",
+                  color: "#515558",
+                }}
+              >
+                Move-in/Out Support
+              </div>
+              <div
+                //long text section
+                style={{
+                  width: "250px",
+                  height: "34px",
+                  fontFamily: "Roboto, sans-serif",
+                  fontWeight: 400,
+                  fontSize: "12px",
+                  lineHeight: "17.16px",
+                  letterSpacing: "0.1px",
+                  bottom: 0,
+                  right: 0,
+                  position: "absolute",
                   color: "#545558",
                 }}
               >
