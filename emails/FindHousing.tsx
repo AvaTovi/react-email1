@@ -142,25 +142,58 @@ export const FindHousingEmail = () => (
             alignItems: "center",
             justifyContent: "flex-start",
             position: "absolute",
-            border: "2px solid black",
           }}
         >
           <div
             style={{
               //DISCOVER Section
               width: "256.08px",
-              height: "66px",
+              height: "65px",
               transform: "rotate(0deg)",
               fontFamily: "Gilroy, sans-serif",
-              fontWeight: 800,
+              fontWeight: 799,
               fontSize: "51.78px",
               lineHeight: "65.77px",
               textAlign: "center",
-              justifyContent: "center",
               color: "#515558",
             }}
           >
             DISCOVER
+          </div>
+          <div
+            //whats section
+            style={{
+              width: "120.12px",
+              height: "54px",
+              marginLeft: "20px",
+              transform: "rotate(0deg)",
+              fontFamily: "Roboto,sans-serif",
+              fontWeight: 300,
+              fontStyle: "italic",
+              fontSize: "42.45px",
+              lineHeight: "53.92px",
+              textAlign: "center",
+              fontStretch: "condensed",
+              color: "#515558",
+            }}
+          >
+            Whats
+          </div>
+          <div
+            //style section
+            style={{
+              width: "219.12px",
+              height: "65px",
+              transform: "rotate(0deg)",
+              fontFamily: "Gilroy, sans-serif",
+              fontWeight: 799,
+              fontSize: "51.78px",
+              lineHeight: "65.77px",
+              textAlign: "center",
+              color: "#515558",
+            }}
+          >
+            COMING
           </div>
         </div>
 
@@ -201,6 +234,7 @@ export const FindHousingEmail = () => (
           }}
         >
           <div
+            //our features section
             style={{
               width: "543px",
               height: "24px",
