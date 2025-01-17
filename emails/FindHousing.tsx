@@ -238,7 +238,6 @@ export const FindHousingEmail = () => (
                 gap: "8px",
                 display: "flex",
                 flexDirection: "column",
-                border: "2px solid blue",
               }}
             >
               <div
@@ -312,7 +311,67 @@ export const FindHousingEmail = () => (
                   lineHeight: "17.16px",
                   letterSpacing: "0.1px",
                   bottom: 0,
+                  color: "#545558",
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur elit. Vivamus in velit
+                interdum, facilisis lectus quis.
+              </div>
+            </div>
+          </div>
+
+          <div
+            //frame for bottom
+            style={{
+              width: "543px",
+              height: "140px",
+              flexDirection: "column",
+              gap: "8px",
+              display: "flex",
+              position: "relative",
+              border: "2px solid yellow",
+            }}
+          >
+            <div
+              //bottom left frame
+              style={{
+                width: "250px",
+                height: "70px",
+                gap: "8px",
+                position: "absolute",
+                bottom: "0",
+                left: "0",
+                border: "2px solid yellow",
+              }}
+            >
+              <div
+                //sublease property section
+                style={{
+                  width: "250px",
+                  height: "28px",
+                  transform: "rotate(0deg)",
+                  fontFamily: "Roboto, sans-serif",
+                  fontWeight: 800,
+                  fontSize: "18px",
+                  lineHeight: "28px",
+                  color: "#515558",
+                }}
+              >
+                Sublease Property
+              </div>
+              <div
+                //long text section
+                style={{
+                  width: "250px",
+                  height: "34px",
+                  fontFamily: "Roboto, sans-serif",
+                  fontWeight: 400,
+                  fontSize: "12px",
+                  lineHeight: "17.16px",
+                  letterSpacing: "0.1px",
                   position: "absolute",
+                  bottom: 0,
+                  left: 0,
                   color: "#545558",
                 }}
               >
