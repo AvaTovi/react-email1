@@ -475,7 +475,7 @@ export const FindHousingEmail = () => (
           }}
         >
           <div
-            //child frame
+            //top child frame
             style={{
               width: "343px",
               height: "54px",
@@ -517,6 +517,49 @@ export const FindHousingEmail = () => (
               }}
             >
               Enter your email address here
+            </div>
+          </div>
+          <div
+            //bottom frame child
+            style={{
+              width: "310px",
+              height: "38px",
+              borderRadius: "36px",
+              border: "1px solid black",
+              padding: "8px 8px 8px 24px",
+              gap: "16px",
+              bottom: 0,
+              position: "absolute",
+              alignItems: "center",
+              display: "flex",
+              color: "#CBD5E1",
+            }}
+          >
+            <div
+              //search bar frame
+              style={{
+                width: "195px",
+                height: "22px",
+                gap: "8px",
+                border: "2px solid black",
+              }}
+            >
+              <div
+                //input your email section
+                style={{
+                  width: "106px",
+                  height: "22px",
+                  fontFamily: "Inter, sans-serif",
+                  fontWeight: 400,
+                  fontSize: "14px",
+                  lineHeight: "22px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "#94A3B8",
+                }}
+              >
+                Input your email
+              </div>
             </div>
           </div>
         </div>
