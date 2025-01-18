@@ -231,6 +231,7 @@ export const FindHousingEmail = () => (
             gap: "32px",
             position: "absolute",
             justifyContent: "center",
+            border: "2px solid black",
           }}
         >
           <div
@@ -370,7 +371,7 @@ export const FindHousingEmail = () => (
                 height: "70px",
                 gap: "8px",
                 position: "absolute",
-                bottom: "0",
+                bottom: 20,
                 left: "0",
               }}
             >
@@ -416,7 +417,7 @@ export const FindHousingEmail = () => (
                 width: "250px",
                 height: "68px",
                 gap: "8px",
-                bottom: 0,
+                bottom: 20,
                 right: 0,
                 position: "absolute",
               }}
@@ -455,6 +456,67 @@ export const FindHousingEmail = () => (
                 Lorem ipsum dolor sit amet, consectetur elit. Vivamus in velit
                 interdum, facilisis lectus quis.
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          //parent frame
+          style={{
+            width: "343px",
+            height: "130px",
+            top: "1242px",
+            left: "197px",
+            gap: "24px",
+            position: "absolute",
+            alignItems: "center",
+            textAlign: "center",
+            border: "2px solid black",
+          }}
+        >
+          <div
+            //child frame
+            style={{
+              width: "343px",
+              height: "54px",
+              gap: "4px",
+              border: "2px solid blue",
+            }}
+          >
+            <div
+              //Be the first to know when new feature lands section
+              style={{
+                width: "343px",
+                height: "26px",
+                transform: "rotate(0deg)",
+                fontFamily: "Roboto, sans-serif",
+                fontWeight: 700,
+                fontSize: "16px",
+                lineHeight: "26px",
+                letterSpacing: "2%",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#515558",
+              }}
+            >
+              Be the first to know when new feature lands.
+            </div>
+            <div
+              //Enter your email address here section
+              style={{
+                width: "343px",
+                height: "24px",
+                fontFamily: "Roboto, sans-serif",
+                fontWeight: 400,
+                fontSize: "14px",
+                lineHeight: "24px",
+                letterSpacing: "0.1px",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#545558",
+              }}
+            >
+              Enter your email address here
             </div>
           </div>
         </div>
