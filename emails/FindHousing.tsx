@@ -649,6 +649,57 @@ export const FindHousingEmail = () => {
               ORDER
             </div>
           </div>
+
+          <div
+            style={{
+              //img1 frame
+              width: "610px",
+              height: "307px",
+              top: "1559px",
+              left: "63px",
+              borderTopLeftRadius: "10px",
+              borderTopRightRadius: "10px",
+              position: "absolute",
+              display: "flex",
+              border: "2px solid black",
+            }}
+          >
+            <img
+            //src="gu4vWesmJR9obgA6h8bdVDpZQxLC9RBliPNOOhhZV55DZl6wdE1zNPi7zVg3BEvEV8HFNUZkpTORZ0ADWtvliVhpEVLg6Pzn1bSplVGytj6gX8XMEPig7DDrTAVxOm7ETwzq9OzFLGgqTN7Dscq4rm0pBdC4wQ5sb1Y5rzgipN1tqrW3l6WdPMmBjsU5FpfxuYXMbg__"
+            //alt="Image description"
+            //style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </div>
+          <div
+            //img2 frame
+            style={{
+              width: "298.84px",
+              height: "257.76px",
+              top: "1878.24px",
+              left: "63px",
+              borderBottomLeftRadius: "10px",
+              position: "absolute",
+              display: "flex",
+              border: "2px solid black",
+            }}
+          >
+            <img></img>
+          </div>
+          <div
+            //img3 frame
+            style={{
+              width: "298.84px",
+              height: "257.76px",
+              top: "1878.24px",
+              left: "374.16px",
+              borderBottomRightRadius: "10px",
+              position: "absolute",
+              display: "flex",
+              border: "2px solid black",
+            }}
+          >
+            <img></img>
+          </div>
         </div>
       </Body>
     </Html>
