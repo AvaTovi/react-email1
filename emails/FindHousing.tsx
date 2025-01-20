@@ -183,7 +183,7 @@ export const FindHousingEmail = () => {
               Whats
             </div>
             <div
-              //style section
+              //coming section
               style={{
                 width: "219.12px",
                 height: "65px",
@@ -580,6 +580,58 @@ export const FindHousingEmail = () => {
               >
                 Subscribe
               </div>
+            </div>
+          </div>
+
+          <div
+            //frame
+            style={{
+              width: "538.75px",
+              height: "66px",
+              top: "1433px",
+              left: "99px",
+              gap: "8px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "flex-start",
+              position: "absolute",
+              border: "2px solid black",
+            }}
+          >
+            <div
+              //EXPLORE section
+              style={{
+                width: "240px",
+                height: "60px",
+                transform: "rotate(0deg)",
+                fontFamily: "Gilroy, sans-serif",
+                fontWeight: 750,
+                fontSize: "51.78px",
+                lineHeight: "65.77px",
+                textAlign: "center",
+                color: "#515558",
+              }}
+            >
+              EXPLORE
+            </div>
+            <div
+              //special section
+              style={{
+                width: "131px",
+                height: "54px",
+                transform: "rotate(0deg)",
+                fontFamily: "Roboto, sans-serif",
+                fontWeight: 190,
+                fontStyle: "italic",
+                fontSize: "42.45px",
+                lineHeight: "53.92px",
+                margin: "0",
+                textAlign: "center",
+                fontStretch: "condensed",
+                color: "#515558",
+              }}
+            >
+              Special
             </div>
           </div>
         </div>
