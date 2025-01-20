@@ -595,7 +595,6 @@ export const FindHousingEmail = () => {
               alignItems: "center",
               justifyContent: "flex-start",
               position: "absolute",
-              border: "2px solid black",
             }}
           >
             <div
@@ -605,8 +604,8 @@ export const FindHousingEmail = () => {
                 height: "60px",
                 transform: "rotate(0deg)",
                 fontFamily: "Gilroy, sans-serif",
-                fontWeight: 750,
-                fontSize: "51.78px",
+                fontWeight: 799.99991,
+                fontSize: "49px",
                 lineHeight: "65.77px",
                 textAlign: "center",
                 color: "#515558",
@@ -621,17 +620,33 @@ export const FindHousingEmail = () => {
                 height: "54px",
                 transform: "rotate(0deg)",
                 fontFamily: "Roboto, sans-serif",
-                fontWeight: 190,
+                fontWeight: 0.0000000001,
                 fontStyle: "italic",
-                fontSize: "42.45px",
+                fontSize: "40.45px",
                 lineHeight: "53.92px",
                 margin: "0",
                 textAlign: "center",
-                fontStretch: "condensed",
+                fontStretch: "ultra-condensed",
                 color: "#515558",
               }}
             >
               Special
+            </div>
+            <div
+              //order section
+              style={{
+                width: "240px",
+                height: "60px",
+                transform: "rotate(0deg)",
+                fontFamily: "Gilroy, sans-serif",
+                fontWeight: 799.99991,
+                fontSize: "49px",
+                lineHeight: "65.77px",
+                textAlign: "center",
+                color: "#515558",
+              }}
+            >
+              ORDER
             </div>
           </div>
         </div>
