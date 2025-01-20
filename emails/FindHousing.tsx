@@ -700,6 +700,42 @@ export const FindHousingEmail = () => {
           >
             <img></img>
           </div>
+
+          <div
+            //button
+            style={{
+              width: "120px",
+              height: "35px",
+              top: "2190px",
+              left: "285px",
+              borderRadius: "100px",
+              padding: "14px 24px",
+              gap: "10px",
+              display: "flex",
+              position: "absolute",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              cursor: "pointer",
+              backgroundColor: buttonColor,
+              border: "black",
+            }}
+          >
+            <div
+              //inside button
+              style={{
+                width: "106px",
+                height: "26px",
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: 700,
+                fontSize: "16px",
+                lineHeight: "26px",
+                color: "#FFFFFF",
+              }}
+            >
+              Explore More
+            </div>
+          </div>
         </div>
       </Body>
     </Html>
