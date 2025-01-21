@@ -759,11 +759,36 @@ export const FindHousingEmail = () => {
                 top: "2335px",
                 left: "86px",
                 gap: "42px",
+                display: "flex",
                 justifyContent: "center",
-                alignItems: "center",
+                alignItems: "flex-start",
                 border: "2px solid black",
               }}
-            ></div>
+            >
+              <div
+                //Have Question? Get In Touch frame section
+                style={{
+                  width: "327px",
+                  height: "32px",
+                }}
+              >
+                <div
+                  //Have Questions? Get In Touch text section
+                  style={{
+                    width: "327px",
+                    height: "32px",
+                    fontFamily: "YourFontFamily, sans-serif",
+                    fontWeight: 500,
+                    fontSize: "1.25rem",
+                    lineHeight: "32px",
+                    letterSpacing: "0.15px",
+                    textAlign: "center",
+                  }}
+                >
+                  Have Questions? Get In Touch
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Body>
