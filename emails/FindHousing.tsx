@@ -760,33 +760,79 @@ export const FindHousingEmail = () => {
                 left: "86px",
                 gap: "42px",
                 display: "flex",
-                justifyContent: "center",
-                alignItems: "flex-start",
+                justifyContent: "flex-start",
+                alignItems: "center",
+                flexDirection: "column",
                 border: "2px solid black",
               }}
             >
               <div
-                //Have Question? Get In Touch frame section
+                //third child frame
                 style={{
-                  width: "327px",
-                  height: "32px",
+                  width: "468px",
+                  height: "108px",
+                  position: "absolute",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "flex-start",
+                  alignItems: "center",
+                  border: "2px solid black",
                 }}
               >
                 <div
-                  //Have Questions? Get In Touch text section
+                  //Have Question? Get In Touch frame section
                   style={{
                     width: "327px",
                     height: "32px",
-                    fontFamily: "YourFontFamily, sans-serif",
-                    fontWeight: 500,
-                    fontSize: "1.25rem",
-                    lineHeight: "32px",
-                    letterSpacing: "0.15px",
-                    textAlign: "center",
                   }}
                 >
-                  Have Questions? Get In Touch
+                  <div
+                    //Have Questions? Get In Touch text section
+                    style={{
+                      width: "327px",
+                      height: "32px",
+                      fontFamily: "YourFontFamily, sans-serif",
+                      fontWeight: 500,
+                      fontSize: "1.25rem",
+                      lineHeight: "32px",
+                      letterSpacing: "0.15px",
+                      textAlign: "center",
+                    }}
+                  >
+                    Have Questions? Get In Touch
+                  </div>
                 </div>
+                <div
+                  //other frame
+                  style={{
+                    width: "468px",
+                    height: "52px",
+                    bottom: 0,
+                    position: "absolute",
+                  }}
+                >
+                  <div
+                    //text section
+                    style={{
+                      width: "468px",
+                      height: "52px",
+                      fontFamily: "YourFontFamily, sans-serif",
+                      fontWeight: "regular",
+                      fontSize: "16px",
+                      lineHeight: "26px",
+                      letterSpacing: "0.17px",
+                      textAlign: "center",
+                      color: "#94A3B8",
+                    }}
+                  >
+                    A great platform to find and lease your envisioned property
+                    without any agent and commisions
+                  </div>
+                </div>
+                <div
+                  //button frame
+                  style={{}}
+                ></div>
               </div>
             </div>
           </div>
