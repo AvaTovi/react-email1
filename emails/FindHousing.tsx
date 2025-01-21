@@ -736,6 +736,35 @@ export const FindHousingEmail = () => {
               Explore More
             </div>
           </div>
+          <div
+            //parent frame
+            style={{
+              width: "716px",
+              height: "327px",
+              top: "2273px",
+              left: "10px",
+              position: "absolute",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              backgroundColor: "#F5F5FB",
+              border: "2px solid black",
+            }}
+          >
+            <div
+              //child frame
+              style={{
+                width: "565px",
+                height: "204px",
+                top: "2335px",
+                left: "86px",
+                gap: "42px",
+                justifyContent: "center",
+                alignItems: "center",
+                border: "2px solid black",
+              }}
+            ></div>
+          </div>
         </div>
       </Body>
     </Html>
