@@ -139,12 +139,12 @@ export const FindHousingEmail = () => {
             </div>
           </div>
           {/*last frame*/}
-          <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute", border: "2px solid black" }}>
+          <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute" }}>
             {/*text frame*/}
-            <div style={{ width: "634px", height: "32px", gap: "10px", display: "flex", position: "absolute", flexWrap: "nowrap", justifyContent: "space-between", alignItems: "center", border: "2px solid black", boxSizing: "border-box" }}>
+            <div style={{ width: "634px", height: "32px", gap: "10px", display: "flex", position: "absolute", flexWrap: "nowrap", justifyContent: "space-between", alignItems: "center", boxSizing: "border-box" }}>
               {/* FOLLOW MYCOLLEGELEASE section */}
               <div style={{ flex: "0 0 158px", height: "24px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
-                <span style={{ display: "block", marginTop: 0, height: "5px" }}>
+                <span style={{ display: "block", marginTop: 0 }}>
                   <span style={{ color: "#EC535B" }}>FOLLOW MYCOLLEGELEASE</span>
                 </span>
               </div>
@@ -168,6 +168,21 @@ export const FindHousingEmail = () => {
                 <span style={{ display: "block", marginTop: 0 }}>
                   <span style={{ color: "#EC535B" }}>UNSUBSCRIBE</span>
                 </span>
+              </div>
+            </div>
+            {/*final frame*/}
+            <div style={{ width: "488px", height: "58px", gap: "12px", display: "flex", position: "absolute", bottom: 0, flexDirection: "column" }}>
+              {/*inner frame*/}
+              <div style={{ width: "488px", height: "26px", gap: "10px", textAlign: "center", position: "absolute", display: "flex", top: 0, justifyContent: "center", alignItems: "center" }}>
+                {/*text in frame*/}
+                <div style={{ fontFamily: "Roboto, sans-serif", fontWeight: 400, fontSize: "14px", lineHeight: "24px", whiteSpace: "nowrap", color: "#343131" }}>Spread the word!</div>
+              </div>
+              {/*icon frame*/}
+              <div style={{ width: "92px", height: "20px", gap: "16px", position: "absolute", left: "40%", bottom: 0, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0" }}>
+                {/*icons*/}
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" style={{ width: "18px", height: "20px", color: "#FFFFFF" }} />
+                <img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" style={{ width: "18px", height: "20px", color: "#FFFFFF" }} />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" style={{ width: "18px", height: "20px", border: "2px", color: "#FFFFFF" }} />
               </div>
             </div>
           </div>
