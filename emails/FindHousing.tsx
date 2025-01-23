@@ -112,11 +112,11 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Button: Explore More */}
-          <div style={{ width: "120px", height: "35px", top: "2190px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, border: "black" }}>
+          <div style={{ width: "120px", height: "30px", top: "2190px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, border: "black" }}>
             <div style={{ width: "106px", height: "26px", fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "16px", lineHeight: "26px", color: "#FFFFFF" }}>Explore More</div>
           </div>
 
-          {/* parent fraame Section */}
+          {/* parent frame Section */}
           <div style={{ width: "716px", height: "327px", top: "2273px", left: "10px", position: "absolute", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#F5F5FB", border: "2px solid black" }}>
             {/*Child Frame*/}
             <div style={{ width: "565px", height: "204px", top: "2335px", left: "86px", gap: "42px", display: "flex", justifyContent: "flex-start", alignItems: "center", flexDirection: "column", border: "2px solid black" }}>
@@ -132,9 +132,10 @@ export const FindHousingEmail = () => {
                 </div>
               </div>
               {/*contact us button frame*/}
-              <div style={{ width: "244px", height: "54px", bottom: 0, borderRadius: "100px", padding: "14px 24px", gap: "10px", display: 'flex', position: "absolute", alignItems: "center", justifyContent: "flex-bottom", backgroundColor: buttonColor, border: "2px solid black" }}>
-              <div style={{ }}>
-                
+              <div style={{ width: "210px", height: "30px", bottom: 60, borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, border: "2px solid black" }}>
+              {/*Contact us text*/}
+              <div style={{ width: '91px', height: '26px', fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '16px', lineHeight: '26px', color: '#FFFFFF'}}>
+                Contact Us
               </div>
             </div>
           </div>
