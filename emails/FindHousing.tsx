@@ -141,7 +141,16 @@ export const FindHousingEmail = () => {
           {/*last frame*/}
           <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute", border: "2px solid black" }}>
             {/*text frame*/}
-            <div style={{ width: "634px", height: "32px", gap: "16px", justifyContent: "flex-start", display: "flex", border: "2px solid black" }}></div>
+            <div style={{ width: "634px", height: "32px", gap: "16px", display: "flex", position: "absolute", flexWrap: "wrap", alignItems: "center", border: "2px solid black" }}>
+              {/*FOLLOW MYCOLLEGELEASE section*/}
+              <div style={{ width: "158px", height: "24px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap" }}>
+                <span style={{ display: "block", marginTop: "5px" }}>
+                  <span style={{ color: "#EC535B" }}> FOLLOW MYCOLLEGELEASE</span>
+                </span>
+              </div>
+
+              <div style={{ width: "1px", height: "24px", alignItems: "center", justifyContent: "center", backgroundColor: "#D3D1D1" }}></div>
+            </div>
           </div>
         </div>
       </Body>
