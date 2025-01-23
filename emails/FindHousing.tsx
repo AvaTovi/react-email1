@@ -89,7 +89,7 @@ export const FindHousingEmail = () => {
               <div style={{ width: "195px", height: "22px", gap: "8px" }}>
                 <div style={{ width: "106px", height: "22px", fontFamily: "Inter, sans-serif", fontWeight: 400, fontSize: "14px", lineHeight: "22px", justifyContent: "center", alignItems: "center", color: "#94A3B8" }}>Input your email</div>
               </div>
-              <div style={{ fontVariant: "contained", backgroundColor: buttonColor, fontSize: "medium", width: "120px", height: "30px", borderRadius: "24px", padding: "8px", color: "white", display: "flex", justifyContent: "center", alignItems: "center", cursor: "pointer" }}>Subscribe</div>
+              <div style={{ fontVariant: "contained", backgroundColor: buttonColor, fontSize: "medium", width: "120px", height: "30px", borderRadius: "24px", padding: "8px", color: "white", display: "flex", justifyContent: "center", alignItems: "center", cursor: "pointer", boxShadow: "0px 8px 26px 0px #EC535B40" }}>Subscribe</div>
             </div>
           </div>
 
@@ -112,19 +112,19 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Button: Explore More */}
-          <div style={{ width: "120px", height: "30px", top: "2190px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, border: "black" }}>
+          <div style={{ width: "120px", height: "30px", top: "2190px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, boxShadow: "0px 8px 26px 0px #EC535B40" }}>
             <div style={{ width: "106px", height: "26px", fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "16px", lineHeight: "26px", color: "#FFFFFF" }}>Explore More</div>
           </div>
 
           {/* parent frame Section */}
-          <div style={{ width: "716px", height: "327px", top: "2273px", left: "10px", position: "absolute", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#F5F5FB", border: "2px solid black" }}>
+          <div style={{ width: "716px", height: "327px", top: "2273px", left: "10px", position: "absolute", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#F5F5FB" }}>
             {/*Child Frame*/}
-            <div style={{ width: "565px", height: "204px", top: "2335px", left: "86px", gap: "42px", display: "flex", justifyContent: "flex-start", alignItems: "center", flexDirection: "column", border: "2px solid black" }}>
+            <div style={{ width: "565px", height: "204px", top: "2335px", left: "86px", gap: "42px", display: "flex", justifyContent: "flex-start", alignItems: "center", flexDirection: "column" }}>
               {/*Text frame*/}
-              <div style={{ width: "468px", height: "108px", position: "absolute", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center", border: "2px solid black" }}>
+              <div style={{ width: "468px", height: "108px", position: "absolute", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center" }}>
                 <div style={{ width: "327px", height: "32px" }}>
                   {/*Have Questions? Get In Contact section*/}
-                  <div style={{ width: "327px", height: "32px", fontFamily: "YourFontFamily, sans-serif", fontWeight: 500, fontSize: "1.25rem", lineHeight: "32px", letterSpacing: "0.15px", textAlign: "center" }}>Have Questions? Get In Touch</div>
+                  <div style={{ width: "327px", height: "32px", fontFamily: "YourFontFamily, sans-serif", fontWeight: 549, fontSize: "1.25rem", lineHeight: "32px", letterSpacing: "0.15px", textAlign: "center" }}>Have Questions? Get In Touch</div>
                 </div>
                 <div style={{ width: "468px", height: "52px", bottom: 0, position: "absolute" }}>
                   {/*Long text Section*/}
@@ -132,17 +132,15 @@ export const FindHousingEmail = () => {
                 </div>
               </div>
               {/*contact us button frame*/}
-              <div style={{ width: "210px", height: "30px", bottom: 60, borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, border: "2px solid black" }}>
-              {/*Contact us text*/}
-              <div style={{ width: '91px', height: '26px', fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '16px', lineHeight: '26px', color: '#FFFFFF'}}>
-                Contact Us
+              <div style={{ width: "210px", height: "30px", bottom: 60, borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, boxShadow: "0px 8px 26px 0px #EC535B40" }}>
+                {/*Contact us text*/}
+                <div style={{ width: "91px", height: "26px", fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "16px", lineHeight: "26px", color: "#FFFFFF" }}>Contact Us</div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </Body>
-  </Html>
+      </Body>
+    </Html>
   );
 };
 export default FindHousingEmail;

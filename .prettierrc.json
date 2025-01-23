@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
     "printWidth": 120,
     "tabWidth": 2,
@@ -35,42 +35,4 @@
         }
       }
     ]
-=======
-{
-    "printWidth": 120,
-    "tabWidth": 2,
-    "useTabs": false,
-    "semi": true,
-    "singleQuote": false,
-    "trailingComma": "es5",
-    "bracketSpacing": true,
-    "bracketSameLine": false,
-    "arrowParens": "always",
-    "proseWrap": "preserve",
-    "htmlWhitespaceSensitivity": "css",
-    "endOfLine": "lf",
-    "embeddedLanguageFormatting": "auto",
-    "singleAttributePerLine": false,
-    "jsxSingleQuote": false,
-    "jsxBracketSameLine": false,
-    "cssDeclarationSorting": "preserve",
-    "quoteProps": "as-needed",
-    "overrides": [
-      {
-        "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-        "options": {
-          "printWidth": 1000,
-          "singleAttributePerLine": false,
-          "jsxBracketSameLine": true,
-          "bracketSameLine": true
-        }
-      },
-      {
-        "files": ["**/*style*.{js,jsx,ts,tsx}"],
-        "options": {
-          "printWidth": 1000
-        }
-      }
-    ]
->>>>>>> 763137ed94b371187ad09a15a708b554330948de
   }
