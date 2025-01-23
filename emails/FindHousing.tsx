@@ -138,6 +138,11 @@ export const FindHousingEmail = () => {
               </div>
             </div>
           </div>
+          {/*last frame*/}
+          <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute", border: "2px solid black" }}>
+            {/*text frame*/}
+            <div style={{ width: "634px", height: "32px", gap: "16px", justifyContent: "flex-start", display: "flex", border: "2px solid black" }}></div>
+          </div>
         </div>
       </Body>
     </Html>
