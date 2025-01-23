@@ -141,21 +141,34 @@ export const FindHousingEmail = () => {
           {/*last frame*/}
           <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute", border: "2px solid black" }}>
             {/*text frame*/}
-            <div style={{ width: "634px", height: "32px", gap: "10px", display: "flex", position: "absolute", flexWrap: "nowrap", alignItems: "center", border: "2px solid black", boxSizing: "border-box" }}>
+            <div style={{ width: "634px", height: "32px", gap: "10px", display: "flex", position: "absolute", flexWrap: "nowrap", justifyContent: "space-between", alignItems: "center", border: "2px solid black", boxSizing: "border-box" }}>
               {/* FOLLOW MYCOLLEGELEASE section */}
-              <div style={{ flex: "0 0 100px", height: "24px", padding: "4px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
-                <span style={{ display: "block", marginTop: 0 }}>
+              <div style={{ flex: "0 0 158px", height: "24px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
+                <span style={{ display: "block", marginTop: 0, height: "5px" }}>
                   <span style={{ color: "#EC535B" }}>FOLLOW MYCOLLEGELEASE</span>
                 </span>
               </div>
               <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
               {/* VISIT MYCOLLEGELEASE.COM section */}
-              <div style={{ flex: "0 0 150px", height: "24px", padding: "4px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
+              <div style={{ flex: "0 0 172px", height: "24px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
                 <span style={{ display: "block", marginTop: 0 }}>
                   <span style={{ color: "#EC535B" }}>VISIT MYCOLLEGELEASE.COM</span>
                 </span>
               </div>
               <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
+              {/*visit our blog section*/}
+              <div style={{ flex: "0 0 93px", height: "24px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", whiteSpace: "nowrap", boxSizing: "border-box" }}>
+                <span style={{ display: "block", marginTop: 0 }}>
+                  <span style={{ color: "#EC535B" }}>VISIT OUR BLOG</span>
+                </span>
+              </div>
+              <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
+              {/*Unsubscribe*/}
+              <div style={{ flex: "0 0 83px", height: "24px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%" }}>
+                <span style={{ display: "block", marginTop: 0 }}>
+                  <span style={{ color: "#EC535B" }}>UNSUBSCRIBE</span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
