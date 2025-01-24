@@ -186,6 +186,11 @@ export const FindHousingEmail = () => {
               </div>
             </div>
           </div>
+          {/*bottom black line*/}
+          <div style={{ width: "100%", height: "auto", top: "2856px", bottom: 0, position: "absolute" }}>
+            {/*border*/}
+            <div style={{ width: "736px", height: "38px", transform: "rotate(-180deg)", borderTopLeftRadius: "24px", borderTopRightRadius: "24px", backgroundColor: "black", display: "flex", alignItems: "center", justifyContent: "center" }}></div>
+          </div>
         </div>
       </Body>
     </Html>
