@@ -5,10 +5,7 @@ import React from "react";
 export const SkateAppEmail = () => (
   <Html>
     <Head>
-      <Link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
-      ></Link>
+      <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"></Link>
     </Head>
     <Body>
       <div
@@ -22,8 +19,7 @@ export const SkateAppEmail = () => (
           alignItems: "center",
           justifyContent: "center",
           border: "2px solid black",
-        }}
-      >
+        }}>
         <h1
           style={{
             width: "134px",
@@ -37,8 +33,7 @@ export const SkateAppEmail = () => (
             fontSize: "14px",
             lineHeight: "24px",
             whiteSpace: "nowrap",
-          }}
-        >
+          }}>
           Reset Your Password
         </h1>
       </div>
@@ -69,8 +64,7 @@ export const SkateAppEmail = () => (
           letterSpacing: "2%",
           color: "#0C3461",
           whiteSpace: "nowrap",
-        }}
-      >
+        }}>
         HELLO MARCO DAVIS
       </Text>
 
@@ -91,8 +85,7 @@ export const SkateAppEmail = () => (
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-        }}
-      >
+        }}>
         Don't be panic!
       </Text>
 
@@ -115,21 +108,14 @@ export const SkateAppEmail = () => (
           alignItems: "center",
           margin: 0,
           color: "#343131",
-        }}
-      >
-        <div>
-          We received a request to reset the password for your account. Please
-          click
-        </div>
+        }}>
+        <div>We received a request to reset the password for your account. Please click</div>
 
         <div>the button below to create a new password.</div>
       </div>
 
       <div
-        onClick={() =>
-          (window.location.href =
-            "https://mycollegelease.com/request/resetpassword/too")
-        }
+        onClick={() => (window.location.href = "https://mycollegelease.com/request/resetpassword/too")}
         style={{
           position: "absolute",
           width: "244px",
@@ -146,8 +132,7 @@ export const SkateAppEmail = () => (
           cursor: "pointer",
           boxShadow: "0px 8px 26px 0px #EC535B40",
           boxSizing: "border-box",
-        }}
-      >
+        }}>
         <div
           style={{
             fontFamily: "Poppins, sans-serif",
@@ -157,8 +142,7 @@ export const SkateAppEmail = () => (
             color: "#FFFFFF",
             letterSpacing: "2%",
             textAlign: "center",
-          }}
-        >
+          }}>
           Reset My Password
         </div>
       </div>
@@ -178,15 +162,11 @@ export const SkateAppEmail = () => (
           alignItems: "center",
           position: "absolute",
           textAlign: "center",
-        }}
-      >
+        }}>
         Or use the link below to get started
       </Text>
       <div
-        onClick={() =>
-          (window.location.href =
-            "https://mycollegelease.com/request/resetpassword/too")
-        }
+        onClick={() => (window.location.href = "https://mycollegelease.com/request/resetpassword/too")}
         style={{
           width: "500px",
           height: "24px",
@@ -204,8 +184,7 @@ export const SkateAppEmail = () => (
           cursor: "pointer",
           backgroundColor: "transparent",
           border: "none",
-        }}
-      >
+        }}>
         https://mycollegelease.com/request/resetpassword/too
       </div>
 
@@ -229,15 +208,13 @@ export const SkateAppEmail = () => (
           backgroundColor: "#F5F5FB",
           boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
           zIndex: "10",
-        }}
-      >
+        }}>
         <div
           style={{
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-          }}
-        >
+          }}>
           <div
             style={{
               width: "330.12px",
@@ -249,8 +226,7 @@ export const SkateAppEmail = () => (
               letterSpacing: "2%",
               textAlign: "center",
               color: "#190E64",
-            }}
-          >
+            }}>
             GET TROUBLE
           </div>
 
@@ -263,8 +239,7 @@ export const SkateAppEmail = () => (
               lineHeight: "40.22px",
               textAlign: "center",
               color: "#343131",
-            }}
-          >
+            }}>
             Any Question?
           </div>
         </div>
@@ -279,17 +254,11 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             color: "#343131",
-          }}
-        >
-          Please let us know if we can assist you by replying to this email or
-          emailing help@mycollegelease.com.
-          <span style={{ display: "block", marginTop: "20px" }}>
-            If you didn't request a password reset, we recommend you get in
-            touch with our support team to secure your account.
-          </span>
+          }}>
+          Please let us know if we can assist you by replying to this email or emailing help@mycollegelease.com.
+          <span style={{ display: "block", marginTop: "20px" }}>If you didn't request a password reset, we recommend you get in touch with our support team to secure your account.</span>
           <span style={{ display: "block", marginTop: "5px" }}>
-            <span style={{ color: "#ED4944" }}>Call us at +1(213)555-3893</span>{" "}
-            or write to us at
+            <span style={{ color: "#ED4944" }}>Call us at +1(213)555-3893</span> or write to us at
             <span style={{ color: "#ED4944" }}> help@skateappteam.com</span>
           </span>
         </div>
@@ -307,8 +276,7 @@ export const SkateAppEmail = () => (
           display: "flex",
           alignItems: "center",
           flexWrap: "wrap",
-        }}
-      >
+        }}>
         <div
           style={{
             flex: "1 1 172px",
@@ -322,8 +290,7 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             whiteSpace: "nowrap",
-          }}
-        >
+          }}>
           <span style={{ display: "block", marginTop: "5px" }}>
             <span style={{ color: "#EC535B" }}> FOLLOW MYCOLLEGELEASE</span>
           </span>
@@ -334,8 +301,7 @@ export const SkateAppEmail = () => (
             width: "1px",
             height: "24px",
             backgroundColor: "#D3D1D1",
-          }}
-        ></div>
+          }}></div>
 
         <div
           style={{
@@ -348,8 +314,7 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             whiteSpace: "nowrap",
-          }}
-        >
+          }}>
           <span style={{ display: "block", marginTop: "5px" }}>
             <span style={{ color: "#EC535B" }}> VISIT MYCOLLEGELEASE.COM</span>
           </span>
@@ -360,8 +325,7 @@ export const SkateAppEmail = () => (
             width: "1px",
             height: "24px",
             backgroundColor: "#D3D1D1",
-          }}
-        ></div>
+          }}></div>
 
         <div
           style={{
@@ -374,8 +338,7 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             whiteSpace: "nowrap",
-          }}
-        >
+          }}>
           <span style={{ display: "block", marginTop: "5px" }}>
             <span style={{ color: "#EC535B" }}> VISIT OUR BLOG</span>
           </span>
@@ -386,8 +349,7 @@ export const SkateAppEmail = () => (
             width: "1px",
             height: "24px",
             backgroundColor: "#D3D1D1",
-          }}
-        ></div>
+          }}></div>
 
         <div
           style={{
@@ -399,8 +361,7 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             whiteSpace: "nowrap",
-          }}
-        >
+          }}>
           <span style={{ display: "block", marginTop: "5px" }}>
             <span style={{ color: "#EC535B" }}> UNSUBSCRIBE</span>
           </span>
@@ -418,8 +379,7 @@ export const SkateAppEmail = () => (
             alignItems: "center",
             textAlign: "center",
             flexDirection: "column",
-          }}
-        >
+          }}>
           <div
             style={{
               //text
@@ -435,11 +395,8 @@ export const SkateAppEmail = () => (
               whiteSpace: "nowrap",
               display: "flex",
               color: "#343131",
-            }}
-          >
-            <span style={{ display: "block", marginTop: "25px" }}>
-              Spread the word!
-            </span>
+            }}>
+            <span style={{ display: "block", marginTop: "25px" }}>Spread the word!</span>
           </div>
 
           <div
@@ -451,8 +408,7 @@ export const SkateAppEmail = () => (
               justifyContent: "center",
               alignItems: "center",
               display: "flex",
-            }}
-          >
+            }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" // Facebook logo
               alt="Facebook Logo"
@@ -498,8 +454,7 @@ export const SkateAppEmail = () => (
           top: "1357px",
           width: "100%",
           height: "auto",
-        }}
-      >
+        }}>
         <div
           style={{
             width: "736px",
@@ -512,8 +467,7 @@ export const SkateAppEmail = () => (
             alignItems: "center",
             justifyContent: "center",
             border: "2px solid black",
-          }}
-        ></div>
+          }}></div>
       </div>
     </Body>
   </Html>

@@ -1,5 +1,5 @@
 import { Body, Head, Html, Img, Link, Text } from "@react-email/components";
-import * as React from "react";
+import React from "react";
 
 export const FindHousingEmail = () => {
   const [buttonColor, setButtonColor] = React.useState("#FF5A60");
@@ -101,14 +101,19 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Image Gallery Section */}
-          <div style={{ width: "610px", height: "307px", top: "1559px", left: "63px", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", position: "absolute", display: "flex", border: "2px solid black" }}>
-            <img />
+          <div style={{ width: "610px", height: "307px", top: "1559px", left: "63px", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", position: "absolute", display: "flex", overflow: "hidden" }}>
+            <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737965694/react-email-images/ooldhnssnnbxvopwbj0d.png" alt="House1" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
+            <div style={{ width: "95px", height: "40px", top: "10px", left: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#FFFFFF" }}>
+              <div style={{ width: "80px", height: "20px", fontFamily: "fontFamily, sans-serif", fontWeight: 540, fontSize: "1.25rem", lineHeight: "25.15px", letterSpacing: "0.13px", color: "#000000DE", padding: "10px", textAlign: "center" }}>Apartment</div>
+            </div>
           </div>
-          <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "63px", borderBottomLeftRadius: "10px", position: "absolute", display: "flex", border: "2px solid black" }}>
-            <img />
+          <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "63px", borderBottomLeftRadius: "10px", position: "absolute", display: "flex" }}>
+            <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737966699/react-email-images/t5dvkx0mdii2c1guexjp.png" alt="House2" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
+            <div style={{ width: "65px", height: "30px", bottom: "10px", left: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}></div>
           </div>
-          <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "374.16px", borderBottomRightRadius: "10px", position: "absolute", display: "flex", border: "2px solid black" }}>
-            <img />
+          <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "374.16px", borderBottomRightRadius: "10px", position: "absolute", display: "flex" }}>
+            <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737968063/react-email-images/ztdjcmo0rgljcqzq8rqt.png" alt="House3" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
+            <div style={{ width: "65px", height: "30px", bottom: "10px", right: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}></div>
           </div>
 
           {/* Button: Explore More */}
@@ -139,7 +144,7 @@ export const FindHousingEmail = () => {
             </div>
           </div>
           {/*last frame*/}
-          <div style={{ width: "634px", height: "123px", top: "2641px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute" }}>
+          <div style={{ width: "634px", height: "123px", top: "2660px", left: "51px", gap: "33px", justifyContent: "center", display: "flex", alignItems: "flex-start", position: "absolute" }}>
             {/*text frame*/}
             <div style={{ width: "634px", height: "32px", gap: "10px", display: "flex", position: "absolute", flexWrap: "nowrap", justifyContent: "space-between", alignItems: "center", boxSizing: "border-box" }}>
               {/* FOLLOW MYCOLLEGELEASE section */}
