@@ -109,11 +109,15 @@ export const FindHousingEmail = () => {
           </div>
           <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "63px", borderBottomLeftRadius: "10px", position: "absolute", display: "flex" }}>
             <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737966699/react-email-images/t5dvkx0mdii2c1guexjp.png" alt="House2" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
-            <div style={{ width: "65px", height: "30px", bottom: "10px", left: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}></div>
+            <div style={{ bottom: "10px", left: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}>
+              <div style={{ fontFamily: "fontFamily, sans-serif", fontWeight: 540, fontSize: "0.875rem", lineHeight: "25.15px", letterSpacing: "0.13px", color: "#000000DE", textAlign: "center" }}>House</div>
+            </div>
           </div>
           <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "374.16px", borderBottomRightRadius: "10px", position: "absolute", display: "flex" }}>
             <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737968063/react-email-images/ztdjcmo0rgljcqzq8rqt.png" alt="House3" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
-            <div style={{ width: "65px", height: "30px", bottom: "10px", right: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}></div>
+            <div style={{ bottom: "10px", right: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", backgroundColor: "#FFFFFF" }}>
+              <div style={{ fontFamily: "fontFamily, sans-serif", fontWeight: 540, fontSize: "0.875rem", lineHeight: "25.15px", letterSpacing: "0.13px", color: "#000000DE", textAlign: "center" }}>Room</div>
+            </div>
           </div>
 
           {/* Button: Explore More */}
