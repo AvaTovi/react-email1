@@ -103,8 +103,8 @@ export const FindHousingEmail = () => {
           {/* Image Gallery Section */}
           <div style={{ width: "610px", height: "307px", top: "1559px", left: "63px", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", position: "absolute", display: "flex", overflow: "hidden" }}>
             <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1737965694/react-email-images/ooldhnssnnbxvopwbj0d.png" alt="House1" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
-            <div style={{ width: "95px", height: "40px", top: "10px", left: "10px", position: "absolute", borderRadius: "10px", padding: "10px", gap: "10px", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#FFFFFF" }}>
-              <div style={{ width: "80px", height: "20px", fontFamily: "fontFamily, sans-serif", fontWeight: 540, fontSize: "1.25rem", lineHeight: "25.15px", letterSpacing: "0.13px", color: "#000000DE", padding: "10px", textAlign: "center" }}>Apartment</div>
+            <div style={{ width: "95px", height: "40px", top: "10px", left: "10px", position: "absolute", borderRadius: "10px", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#FFFFFF" }}>
+              <div style={{ fontFamily: "fontFamily, sans-serif", fontWeight: 540, fontSize: "0.875rem", lineHeight: "25.15px", letterSpacing: "0.13px", color: "#000000DE", textAlign: "center" }}>Apartment</div>
             </div>
           </div>
           <div style={{ width: "298.84px", height: "257.76px", top: "1878.24px", left: "63px", borderBottomLeftRadius: "10px", position: "absolute", display: "flex" }}>
