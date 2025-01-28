@@ -19,8 +19,18 @@ export const FindHousingEmail = () => {
             <h1 style={{ width: "134px", height: "24px", borderTop: "7px", borderLeft: "301px", transform: "rotate(0deg)", color: "#FFFFFF", fontFamily: "Roboto, sans-serif", fontWeight: 600, fontSize: "14px", lineHeight: "24px", textAlign: "center", whiteSpace: "nowrap" }}>Reset Your Password</h1>
           </div>
 
-          {/* Main Banner Section */}
+          {/* Red Banner Section */}
           <div style={{ width: "736px", height: "640px", display: "flex", position: "relative", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
+            {/*All the img's on banner*/}
+            <div style={{ width: "95.39px", height: "55px", top: "88px", left: "69px", position: "absolute", display: "flex", border: "2px solid black" }}></div>
+            {/*My college lease logo*/}
+            <div style={{ width: "110px", height: "38px", top: "76px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
+              <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
+                <div style={{ width: "51px", height: "8px", fontFamily: "Roboto, sans-serif", fontWeight: 750, fontSize: "8px", lineHeight: "7.81px", letterSpacing: "5%", position: "absolute", top: 8, color: "#FFFFFF", whiteSpace: "nowrap" }}>MY COLLEGE</div>
+                <div style={{ width: "51px", height: "16px", fontFamily: "Roboto, sans-serif", fontWeight: 799, fontSize: "15.84px", lineHeight: "15.84px", letterSpacing: "6%", position: "absolute", bottom: 6, color: "#FFFFFF" }}>LEASE</div>
+              </div>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738095117/react-email-images/a3fsae2x2iv9ogj2cvdc.png" alt="mcl" style={{ width: "38px", height: "38px", left: 0, position: "absolute", display: "flex" }}></Img>
+            </div>
             {/* Text: Are You Ready */}
             <div style={{ width: "93px", height: "350px", top: "149px", left: "322px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", alignItems: "center", textAlign: "center", whiteSpace: "nowrap", color: "#FFFFFF" }}>ARE YOU READY</div>
 
