@@ -38,13 +38,15 @@ export const FindHousingEmail = () => {
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099703/react-email-images/sggiscf7pugmhuygfgzh.png" alt="Cloud4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             {/*House img*/}
-            <div style={{ width: "168.34px", height: "102.48px", top: "538px", left: "555.66px", position: "absolute", display: "flex" }}>
+            <div style={{ top: "538px", left: "555.66px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099965/react-email-images/wsh1b1w3oyxy6yfcwlur.png" alt="House1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
-              <div style={{ width: "31.16px", height: "98.19px", top: "4.7px", left: "134.34px", position: "absolute", display: "flex" }}>
+              <div style={{ top: "4.7px", left: "134.34px", position: "absolute", display: "flex" }}>
                 <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738100407/react-email-images/edyhq9bdjstvtnyrgwfb.png" alt="Tree1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
               </div>
             </div>
-
+            <div style={{ top: "480px", left: "411.27px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738100816/react-email-images/g8bynyw0ev10tkftacxx.png" alt="House2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "76px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
