@@ -48,7 +48,7 @@ export const FindHousingEmail = () => {
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738100816/react-email-images/g8bynyw0ev10tkftacxx.png" alt="House2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             {/*My college lease logo*/}
-            <div style={{ width: "110px", height: "38px", top: "76px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
+            <div style={{ width: "110px", height: "38px", top: "50px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
                 <div style={{ width: "51px", height: "8px", fontFamily: "Roboto, sans-serif", fontWeight: 750, fontSize: "8px", lineHeight: "7.81px", letterSpacing: "5%", position: "absolute", top: 8, color: "#FFFFFF", whiteSpace: "nowrap" }}>MY COLLEGE</div>
                 <div style={{ width: "51px", height: "16px", fontFamily: "Roboto, sans-serif", fontWeight: 799, fontSize: "15.84px", lineHeight: "15.84px", letterSpacing: "6%", position: "absolute", bottom: 6, color: "#FFFFFF" }}>LEASE</div>
@@ -56,13 +56,13 @@ export const FindHousingEmail = () => {
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738095117/react-email-images/a3fsae2x2iv9ogj2cvdc.png" alt="mcl" style={{ width: "38px", height: "38px", left: 0, position: "absolute", display: "flex" }}></Img>
             </div>
             {/* Text: Are You Ready */}
-            <div style={{ width: "93px", height: "350px", top: "149px", left: "322px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", alignItems: "center", textAlign: "center", whiteSpace: "nowrap", color: "#FFFFFF" }}>ARE YOU READY</div>
+            <div style={{ width: "93px", height: "350px", top: "138px", left: "322px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "12px", lineHeight: "24px", letterSpacing: "2%", alignItems: "center", position: "absolute", textAlign: "center", whiteSpace: "nowrap", color: "#FFFFFF" }}>ARE YOU READY</div>
 
             {/* Text: Find Housing Near Your Campus */}
-            <div style={{ width: "510.63px", height: "132px", top: "183px", left: "113px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "48.63px", lineHeight: "66px", textAlign: "center", position: "absolute", color: "#FFFFFF" }}>FIND HOUSING NEAR YOUR CAMPUS</div>
+            <div style={{ width: "510.63px", height: "132px", top: "175px", left: "113px", fontFamily: "Roboto, sans-serif", fontWeight: 700, fontSize: "48.63px", lineHeight: "66px", textAlign: "center", position: "absolute", color: "#FFFFFF" }}>FIND HOUSING NEAR YOUR CAMPUS</div>
 
             {/* Text: Description */}
-            <div style={{ width: "537px", height: "52px", top: "328px", left: "100px", fontFamily: "inter, sans-serif", fontWeight: 400, fontSize: "18px", lineHeight: "26px", textAlign: "center", position: "absolute", color: "#FCFCFC" }}>
+            <div style={{ width: "537px", height: "52px", top: "325px", left: "100px", fontFamily: "inter, sans-serif", fontWeight: 400, fontSize: "18px", lineHeight: "26px", textAlign: "center", position: "absolute", color: "#FCFCFC" }}>
               Introducing the ideal platform for college students to find and <br /> rent apartments near their campus without the hassle.
             </div>
           </div>
