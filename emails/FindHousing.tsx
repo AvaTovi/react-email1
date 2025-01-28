@@ -65,12 +65,22 @@ export const FindHousingEmail = () => {
             <div style={{ top: "550px", left: "274.94px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102810/react-email-images/uxzlgj555io09t5ljr5r.png" alt="prop2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
+            <div style={{ top: "533px", left: "24px", position: "absolute", display: "flex" }}>
+              <Img src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738103643/react-email-images/ryvl7nfvtjrcnfnvkqtg.png" alt="House7" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
             <div style={{ top: "530px", left: "95.13px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738103220/react-email-images/h2jtidt7922x7qanxi0n.png" alt="House6" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             <div style={{ top: "547px", left: "176.8px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738103374/react-email-images/jrwkt15mhytz319wjteb.png" alt="Tree3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
+            <div style={{ top: "617px", left: "70.77px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102594/react-email-images/fjgxabi7ei7byf2mpy3j.png" alt="prop3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "543px", left: "8px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738101927/react-email-images/zwrlacdewy1uj9bcwsv7.png" alt="Tree4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "50px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
