@@ -22,16 +22,16 @@ export const FindHousingEmail = () => {
           {/* Red Banner Section */}
           <div style={{ width: "736px", height: "640px", display: "flex", position: "relative", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
             {/*All the cloud img's on banner*/}
-            <div style={{ width: "88px", height: "35.38px", top: "125px", left: "115px", position: "absolute", display: "flex" }}>
+            <div style={{ width: "88px", height: "35.38px", top: "115px", left: "115px", position: "absolute", display: "flex" }}>
               <Img src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738098725/react-email-images/byn0dlzeeypknsz8guzv.png" alt="cloud1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
-            <div style={{ width: "95.39px", height: "55px", top: "78px", left: "65px", position: "absolute", display: "flex" }}>
+            <div style={{ width: "95.39px", height: "55px", top: "67px", left: "65px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738098920/react-email-images/ox3jlgszklzuhkn8ggsz.png" alt="cloud2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             <div style={{ width: "128.77px", height: "51.77px", top: "76px", left: "519px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099138/react-email-images/sbcrik0a6bpfjaibtd6k.png" alt="cloud3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
-            <div style={{ width: "179.09px", height: "72px", top: "394px", left: "-5px", position: "absolute", display: "flex" }}>
+            <div style={{ width: "179.09px", height: "72px", top: "385px", left: "-5px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099378/react-email-images/pxnkfllcfhlfqdbkk0hu.png" alt="Cloud4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             <div style={{ width: "95.39px", height: "55px", top: "411px", left: "618.73px", position: "absolute", display: "flex" }}>
@@ -46,6 +46,9 @@ export const FindHousingEmail = () => {
             </div>
             <div style={{ top: "480px", left: "411.27px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738100816/react-email-images/g8bynyw0ev10tkftacxx.png" alt="House2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "530px", left: "483.73px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738101668/react-email-images/s4nq9njcbnfgpzz713vw.png" alt="House3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "50px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
