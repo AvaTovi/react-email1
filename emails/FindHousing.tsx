@@ -22,7 +22,12 @@ export const FindHousingEmail = () => {
           {/* Red Banner Section */}
           <div style={{ width: "736px", height: "640px", display: "flex", position: "relative", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
             {/*All the img's on banner*/}
-            <div style={{ width: "95.39px", height: "55px", top: "88px", left: "69px", position: "absolute", display: "flex", border: "2px solid black" }}></div>
+            <div style={{ width: "88px", height: "35.38px", top: "125px", left: "115px", position: "absolute", display: "flex" }}>
+              <Img src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738098725/react-email-images/byn0dlzeeypknsz8guzv.png" alt="cloud1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ width: "95.39px", height: "55px", top: "78px", left: "65px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738098920/react-email-images/ox3jlgszklzuhkn8ggsz.png" alt="cloud2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "76px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
