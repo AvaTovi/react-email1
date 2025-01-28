@@ -54,9 +54,23 @@ export const FindHousingEmail = () => {
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102146/react-email-images/ei68uzapdluisjfpx0ok.png" alt="House4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             <div style={{ top: "542px", left: "380px", position: "absolute", display: "flex" }}>
+              <div style={{ top: "73.43px", left: "21.37px", position: "absolute", display: "flex" }}>
+                <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102594/react-email-images/fjgxabi7ei7byf2mpy3j.png" alt="prop1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+              </div>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738101927/react-email-images/zwrlacdewy1uj9bcwsv7.png" alt="Tree2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
-
+            <div style={{ top: "453px", left: "218.95px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738103008/react-email-images/j1krfyhwp8c9jvrb6ygw.png" alt="House5" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "550px", left: "274.94px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102810/react-email-images/uxzlgj555io09t5ljr5r.png" alt="prop2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "530px", left: "95.13px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738103220/react-email-images/h2jtidt7922x7qanxi0n.png" alt="House6" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "547px", left: "176.8px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738103374/react-email-images/jrwkt15mhytz319wjteb.png" alt="Tree3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "50px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
