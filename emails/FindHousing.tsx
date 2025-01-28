@@ -21,13 +21,30 @@ export const FindHousingEmail = () => {
 
           {/* Red Banner Section */}
           <div style={{ width: "736px", height: "640px", display: "flex", position: "relative", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
-            {/*All the img's on banner*/}
+            {/*All the cloud img's on banner*/}
             <div style={{ width: "88px", height: "35.38px", top: "125px", left: "115px", position: "absolute", display: "flex" }}>
               <Img src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738098725/react-email-images/byn0dlzeeypknsz8guzv.png" alt="cloud1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
             <div style={{ width: "95.39px", height: "55px", top: "78px", left: "65px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738098920/react-email-images/ox3jlgszklzuhkn8ggsz.png" alt="cloud2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
+            <div style={{ width: "128.77px", height: "51.77px", top: "76px", left: "519px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099138/react-email-images/sbcrik0a6bpfjaibtd6k.png" alt="cloud3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ width: "179.09px", height: "72px", top: "394px", left: "-5px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099378/react-email-images/pxnkfllcfhlfqdbkk0hu.png" alt="Cloud4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ width: "95.39px", height: "55px", top: "411px", left: "618.73px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099703/react-email-images/sggiscf7pugmhuygfgzh.png" alt="Cloud4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            {/*House img*/}
+            <div style={{ width: "168.34px", height: "102.48px", top: "538px", left: "555.66px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738099965/react-email-images/wsh1b1w3oyxy6yfcwlur.png" alt="House1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+              <div style={{ width: "31.16px", height: "98.19px", top: "4.7px", left: "134.34px", position: "absolute", display: "flex" }}>
+                <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738100407/react-email-images/edyhq9bdjstvtnyrgwfb.png" alt="Tree1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+              </div>
+            </div>
+
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "76px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>

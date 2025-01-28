@@ -16,7 +16,7 @@ const uploadImage = async (filePath) => {
 };
 
 // Resolve the file path dynamically
-const filePath = path.join(__dirname, "src", "img", "21.png");
+const filePath = path.join(__dirname, "src", "img", "tree1.png");
 
 // Debugging code: Check the resolved file path
 console.log("Resolved file path:", filePath);
