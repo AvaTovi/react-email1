@@ -50,6 +50,13 @@ export const FindHousingEmail = () => {
             <div style={{ top: "530px", left: "483.73px", position: "absolute", display: "flex" }}>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738101668/react-email-images/s4nq9njcbnfgpzz713vw.png" alt="House3" style={{ justifyContent: "center", alignItems: "center" }}></Img>
             </div>
+            <div style={{ top: "504.9px", left: "295.35px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738102146/react-email-images/ei68uzapdluisjfpx0ok.png" alt="House4" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+            <div style={{ top: "542px", left: "380px", position: "absolute", display: "flex" }}>
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738101927/react-email-images/zwrlacdewy1uj9bcwsv7.png" alt="Tree2" style={{ justifyContent: "center", alignItems: "center" }}></Img>
+            </div>
+
             {/*My college lease logo*/}
             <div style={{ width: "110px", height: "38px", top: "50px", left: "321px", gap: "4.43px", display: "flex", position: "absolute", justifyContent: "center" }}>
               <div style={{ width: "60px", height: "100%", gap: "0.37px", right: 0, position: "absolute", display: "flex" }}>
