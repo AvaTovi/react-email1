@@ -162,7 +162,7 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Explore Section */}
-          <div style={{ width: "538.75px", height: "66px", top: "1433px", left: "99px", gap: "8px", display: "flex", alignItems: "center", justifyContent: "flex-start", position: "absolute" }}>
+          <div style={{ width: "538.75px", height: "66px", top: "1400px", left: "99px", gap: "8px", display: "flex", alignItems: "center", justifyContent: "flex-start", position: "absolute" }}>
             <div style={{ width: "240px", height: "60px", transform: "rotate(0deg)", fontFamily: "Gilroy, sans-serif", fontWeight: 799.99991, fontSize: "49px", lineHeight: "65.77px", textAlign: "center", color: "#515558" }}>EXPLORE</div>
             <div style={{ width: "131px", height: "54px", transform: "rotate(0deg)", fontFamily: "Roboto, sans-serif", fontWeight: 0.0000000001, fontStyle: "italic", fontSize: "40.45px", lineHeight: "53.92px", margin: "0", textAlign: "center", fontStretch: "ultra-condensed", color: "#515558" }}>Special</div>
             <div style={{ width: "240px", height: "60px", transform: "rotate(0deg)", fontFamily: "Gilroy, sans-serif", fontWeight: 799.99991, fontSize: "49px", lineHeight: "65.77px", textAlign: "center", color: "#515558" }}>ORDER</div>
@@ -189,7 +189,7 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Button: Explore More */}
-          <div style={{ width: "120px", height: "30px", top: "2190px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, boxShadow: "0px 8px 26px 0px #EC535B40" }}>
+          <div style={{ width: "120px", height: "30px", top: "2175px", left: "285px", borderRadius: "100px", padding: "14px 24px", gap: "10px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", textAlign: "center", cursor: "pointer", backgroundColor: buttonColor, boxShadow: "0px 8px 26px 0px #EC535B40" }}>
             <div style={{ width: "106px", height: "26px", fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "16px", lineHeight: "26px", color: "#FFFFFF" }}>Explore More</div>
           </div>
 
