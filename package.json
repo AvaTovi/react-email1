@@ -3,22 +3,37 @@
   "version": "0.1.8",
   "private": true,
   "scripts": {
-    "build": "email build",
+    "build": "node esbuild.config.js",
     "dev": "email dev",
     "export": "email export"
   },
   "dependencies": {
-    "@react-email/components": "^0.0.32",
-    "@react-email/render": "^1.0.4",
-    "cloudinary": "^2.5.1",
+    "@react-email/components": "0.0.32",
+    "@tailwindcss/cli": "^4.0.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
+    "autoprefixer": "^10.4.20",
     "esbuild": "^0.24.2",
-    "file-loader": "^6.2.0",
-    "react-email": "3.0.6"
-  }
+    "postcss": "^8.5.1",
+    "react-email": "3.0.6",
+    "tailwindcss": "^3.4.17"
+  },
+  "description": "",
+  "main": "cloudinaryConfig.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaTovi/react-email1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AvaTovi/react-email1/issues"
+  },
+  "homepage": "https://github.com/AvaTovi/react-email1#readme"
 }
