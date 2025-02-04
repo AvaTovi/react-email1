@@ -5,11 +5,13 @@ function OffCampusHousing() {
   return (
     <Html>
       <Tailwind>
-        <Body className="bg-gray-100 text-black">
-          <Container className="max-w-[736px] mx-auto bg-white rounded-[24px] p-4">
-            <Section className="bg-[#141211] w-full h-[38px] rounded-[24px]"></Section>
-            <Text className="text-lg font-bold">Welcome to Off-Campus Housing</Text>
-            <Text>Explore comfortable and affordable off-campus housing options near you.</Text>
+        <Body>
+          <Container>
+            {/* Entire Frame */}
+            <div className="top-[3391px] left-[7372px] w-[736px] h-[2309px] rounded-[24px]">
+              {/* Black Tab */}
+              <div className="w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]"></div>
+            </div>
           </Container>
         </Body>
       </Tailwind>
