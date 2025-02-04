@@ -1,9 +1,12 @@
 import React from "react";
-import { Body, Container, Section, Html, Img, Link, Tailwind, Text } from "@react-email/components";
+import { Body, Text, Container, Html, Head, Tailwind } from "@react-email/components";
 
 function OffCampusHousing() {
   return (
     <Html>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
+      </Head>
       <Tailwind>
         <Body>
           <Container>
@@ -11,6 +14,10 @@ function OffCampusHousing() {
             <div className="top-[3391px] left-[7372px] w-[736px] h-[2309px] rounded-[24px]">
               {/* Black Tab */}
               <div className="w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]"></div>
+              {/* Highlighted Frame */}
+              <Text className="absolute top-[60px] left-[216px] transform rotate-0 text-[14px] font-normal leading-[24px] tracking-[0.02em] text-[#7D8187]" style={{ fontFamily: "Roboto, sans-serif" }}>
+                Discover off-campus housing.
+              </Text>
             </div>
           </Container>
         </Body>
