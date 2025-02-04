@@ -7,7 +7,16 @@ function OffCampusHousing() {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
       </Head>
-      <Tailwind>
+      <Tailwind
+        config={{
+          theme: {
+            extend: {
+              colors: {
+                primary: "#14A34A",
+              },
+            },
+          },
+        }}>
         <Body>
           <Container>
             {/* Entire Frame */}
@@ -21,6 +30,9 @@ function OffCampusHousing() {
               {/* Text Frame */}
               <Text className="absolute top-[60px] left-[216px] transform rotate-0 text-[14px] font-normal leading-[24px] tracking-[0.02em] text-[#7D8187]" style={{ fontFamily: "Roboto, sans-serif" }}>
                 Discover off-campus housing.
+              </Text>
+              <Text className=" absolute top-[60px] left-[410px] transform rotate-0 text-[14px] font-500 leading-[24px] tracking-[0.02em] text-primary underline decoration-solid decoration-skip-ink-none cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
+                View in browser
               </Text>
             </div>
           </Container>
