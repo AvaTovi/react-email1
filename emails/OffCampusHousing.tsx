@@ -1,5 +1,5 @@
 import React from "react";
-import { Body, Text, Container, Html, Head, Tailwind } from "@react-email/components";
+import { Body, Text, Container, Html, Head, Tailwind, Section } from "@react-email/components";
 
 function OffCampusHousing() {
   return (
@@ -34,6 +34,8 @@ function OffCampusHousing() {
               <Text className=" absolute top-[60px] left-[410px] transform rotate-0 text-[14px] font-500 leading-[24px] tracking-[0.02em] text-primary underline decoration-solid decoration-skip-ink-none cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
                 View in browser
               </Text>
+              {/* Big grey frame */}
+              <Section className=" absolute flex w-[700px] h-[1518px] top-[115px] left-[35px] bg-[#F5F5FB] "></Section>
             </div>
           </Container>
         </Body>
