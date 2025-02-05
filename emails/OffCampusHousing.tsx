@@ -23,7 +23,7 @@ function OffCampusHousing() {
             <div className="top-[3391px] left-[7372px] w-[736px] h-[2309px] rounded-[24px]">
               {/* Black Tab */}
               <div className="absolute flex justify-center items-center w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]">
-                <Text className=" text-sm sm:text-md font-semibold leading-[24px] text-white text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
+                <Text className=" text-sm sm:text-md font-medium leading-[24px] text-[#FFFFFF] text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   Discover Off-Campus Housing
                 </Text>
               </div>
