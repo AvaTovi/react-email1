@@ -46,7 +46,12 @@ function OffCampusHousing() {
                   A New Way to Discover <br /> Off-Campus Housing
                 </Text>
                 {/* Img Section */}
-                <Img className="absolute mx-auto top-[470px] left-[0px] gap-[12px] " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738727524/react-email-images/aiy8edxkogphiapltbgz.png" alt="img1" />
+                <Img className="absolute mx-auto top-[415px] left-[0px] gap-[12px] " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738727524/react-email-images/aiy8edxkogphiapltbgz.png" alt="img1" />
+                <Img className="absolute mx-auto top-[415px] left-[440px] gap-[12px] " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738731917/react-email-images/meilxwo3cjus7mvctced.png" alt="img2" />
+                <Img className="absolute mx-auto top-[675px] left-[0px] gap-[12px] " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738732254/react-email-images/v8tt8vp934kep5rxl2xd.png" alt="img3" />
+                <Img className="absolute mx-auto top-[675px] left-[440px] gap-[12px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732531/react-email-images/alxvpaaygvautrkepq9n.png" alt="img4" />
+                <Img className="absolute mx-auto top-[675px] left-[271px] gap-[7px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732674/react-email-images/q40iawkug6nmxrm7sm3c.png" alt="img5" />
+                <Img className="absolute mx-auto top-[230px] left-[65px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732956/react-email-images/ahupdba3bvjujwsf9q6k.png" alt="phoneImg" />
               </Section>
             </div>
           </Container>
