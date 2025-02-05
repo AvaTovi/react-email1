@@ -23,16 +23,16 @@ function OffCampusHousing() {
             <div className="top-[3391px] left-[7372px] w-[736px] h-[2309px] rounded-[24px]">
               {/* Black Tab */}
               <div className="absolute flex justify-center items-center w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]">
-                <Text className="text-sm sm:text-md font-semibold leading-[24px] text-white text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
+                <Text className=" text-sm sm:text-md font-semibold leading-[24px] text-white text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   Discover Off-Campus Housing
                 </Text>
               </div>
 
               {/* Text Frame */}
-              <Text className="absolute top-[60px] left-[216px] text-sm sm:text-md font-normal leading-[24px] tracking-[0.02em] text-[#7D8187] max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
+              <Text className="absolute top-[52px] left-[216px] text-sm sm:text-md font-normal leading-[24px] tracking-[0.02em] text-[#7D8187] max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                 Discover off-campus housing.
               </Text>
-              <Text className="absolute top-[60px] left-[410px] text-sm sm:text-md font-large leading-[24px] tracking-[0.02em] text-primary underline decoration-solid decoration-skip-ink-none cursor-pointer max-w-[90%] whitespace-nowrap " style={{ fontFamily: "Roboto, sans-serif" }}>
+              <Text className="absolute top-[52px] left-[410px] text-sm sm:text-md font-large leading-[24px] tracking-[0.02em] text-primary underline decoration-solid decoration-skip-ink-none cursor-pointer max-w-[90%] whitespace-nowrap " style={{ fontFamily: "Roboto, sans-serif" }}>
                 View in browser
               </Text>
 
