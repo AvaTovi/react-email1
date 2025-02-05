@@ -38,8 +38,11 @@ function OffCampusHousing() {
 
               {/* Big Grey Frame */}
               <Section className="absolute flex w-[700px] h-[1518px] top-[115px] left-[25px] bg-[#F5F5FB] items-center justify-center">
-                <Text className="absolute top-[60px] left-[280px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
+                <Text className="absolute top-[55px] left-[280px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   PLEASE WELCOME
+                </Text>
+                <Text className=" text-center items-center justify-center absolute  max-w-[90%] top-[95px] left-[100px] font-extrabold leading-[60px] text-[48px] text-[#232323] " style={{ fontFamily: "Roboto, sans-serif" }}>
+                  A New Way to Discover <br /> Off-Campus Housing
                 </Text>
               </Section>
             </div>
