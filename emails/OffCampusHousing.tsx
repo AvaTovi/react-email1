@@ -52,6 +52,16 @@ function OffCampusHousing() {
                 <Img className="absolute mx-auto top-[675px] left-[440px] gap-[12px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732531/react-email-images/alxvpaaygvautrkepq9n.png" alt="img4" />
                 <Img className="absolute mx-auto top-[675px] left-[271px] gap-[7px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732674/react-email-images/q40iawkug6nmxrm7sm3c.png" alt="img5" />
                 <Img className="absolute mx-auto top-[230px] left-[65px] " src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738732956/react-email-images/ahupdba3bvjujwsf9q6k.png" alt="phoneImg" />
+
+                <Text className=" absolute top-[910px] left-[100px] text-xs max-w-[90%] leading-[26px] text-[18px] text-center whitespace-nowrap text-[#545558]  " style={{ fontFamily: "Inter, sans-serif" }}>
+                  Introducing the ideal platform for college students to find and <br /> rent apartments near their campus without the hassle.
+                </Text>
+                <button
+                  className="absolute top-[1020px] left-[270px] max-w-[90%] text-sm px-[24px] py-[16px] gap-[10px] border-none outline-none
+                   bg-[#14A34A] shadow-[0px_8px_26px_0px_#14A34A40] rounded-[8px] leading-[26px] text-[16px] text-white font-semibold whitespace-nowrap text-center"
+                  style={{ fontFamily: "Poppins, sans-serif" }}>
+                  Start Exploring
+                </button>
               </Section>
             </div>
           </Container>
