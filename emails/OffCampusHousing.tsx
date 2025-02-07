@@ -39,10 +39,10 @@ function OffCampusHousing() {
               {/* command overflow-hidden makes the border end at this frame and not the div frame */}
               {/* Big Grey Frame */}
               <Section className="absolute flex w-[700px] h-[1518px] top-[115px] left-[25px] bg-[#F5F5FB] items-center justify-center overflow-hidden">
-                <Text className="absolute top-[55px] left-[280px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
+                <Text className="absolute top-[45px] left-[295px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   PLEASE WELCOME
                 </Text>
-                <Text className=" text-center items-center justify-center absolute  max-w-[90%] top-[95px] left-[100px] font-extrabold leading-[60px] text-[48px] text-[#232323] " style={{ fontFamily: "Roboto, sans-serif" }}>
+                <Text className=" text-center items-center justify-center absolute  max-w-[90%] top-[85px] left-[100px] font-extrabold leading-[60px] text-[48px] text-[#232323] " style={{ fontFamily: "Roboto, sans-serif" }}>
                   A New Way to Discover <br /> Off-Campus Housing
                 </Text>
                 {/* Img Section */}
@@ -62,6 +62,12 @@ function OffCampusHousing() {
                   style={{ fontFamily: "Poppins, sans-serif" }}>
                   Start Exploring
                 </button>
+                {/* Inner frame */}
+                <Section className=" absolute flex justify-center items-center w-[543px] h-[274px] top-[1070px] left-[75px] gap-[32px] ">
+                  <Text className=" font-black text-[44px] max-w-[90%] leading-[60px] whitespace-nowrap " style={{ fontFamily: "Roboto, sans-serif" }}>
+                    Our Features
+                  </Text>
+                </Section>
               </Section>
             </div>
           </Container>
