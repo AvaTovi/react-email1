@@ -141,7 +141,7 @@ function OffCampusHousing() {
               </Section>
               <div className="absolute w-full top-[2078px] left-[48px] border-t border-[rgba(21,19,19,0.21)] "></div>
               <Section className="w-[634px] h-[123px] top-[2102px] left-[56px] absolute justify-start flex-col flex " style={{ border: "2px solid black" }}>
-                <div className="w-[630px] h-[32px] gap-[20px] absolute top-0 items-center flex  " style={{ border: "2px solid blue" }}>
+                <div className="w-[630px] h-[32px] gap-[20px] absolute top-0 items-center flex mx-auto  " style={{ border: "2px solid blue" }}>
                   <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
                     FOLLOW MYCOLLEGELEASE
                   </div>
@@ -158,6 +158,7 @@ function OffCampusHousing() {
                     UNSUBSCRIBE
                   </div>
                 </div>
+                <div className="w-[488px] h-[58px] gap-[12px] absolute flex items-center justify-center bottom-0 right-[75px] " style={{ border: "2px solid black" }}></div>
               </Section>
             </div>
           </Container>
