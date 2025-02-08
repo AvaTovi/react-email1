@@ -38,7 +38,7 @@ function OffCampusHousing() {
 
               {/* command overflow-hidden makes the border end at this frame and not the div frame */}
               {/* Big Grey Frame */}
-              <Section className="absolute flex w-[700px] h-[1518px] top-[115px] left-[25px] bg-[#F5F5FB] items-center justify-center overflow-hidden">
+              <Section className="absolute flex w-[700px] h-[1550px] top-[115px] left-[25px] bg-[#F5F5FB] items-center justify-center overflow-hidden">
                 <Text className="absolute top-[45px] left-[295px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   PLEASE WELCOME
                 </Text>
@@ -63,13 +63,13 @@ function OffCampusHousing() {
                   Start Exploring
                 </button>
                 {/* Inner frame */}
-                <div className=" absolute flex justify-center w-[543px] h-[274px] top-[1160px] left-[75px] gap-[32px] " style={{ border: "2px solid black" }}>
+                <div className=" absolute flex justify-center w-[543px] h-[274px] top-[1160px] left-[75px] gap-[32px] ">
                   <div className=" font-black text-[40px] max-w-[90%] leading-[60px] whitespace-nowrap text-center absolute top-0 " style={{ fontFamily: "Roboto, sans-serif" }}>
                     Our Features
                   </div>
-                  <div className=" absolute flex w-[543px] h-[180px] bottom-0 " style={{ border: "2px solid blue" }}>
-                    <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] " style={{ border: "2px solid red" }}>
-                      <div className=" flex flex-col items-start justify-start w-[250px] h-[70px]" style={{ border: "2px solid pink" }}>
+                  <div className=" absolute flex w-[543px] h-[180px] bottom-3 ">
+                    <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] ">
+                      <div className=" flex flex-col items-start justify-start w-[250px] h-[60px]">
                         <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
                           Lease Property
                         </div>
@@ -78,7 +78,7 @@ function OffCampusHousing() {
                           <br />
                           Vivamus in velit interdum, facilisis lectus quis.
                         </div>
-                        <div className=" absolute flex flex-col items-start justify-start w-[250px] h-[70px] top-0 right-0" style={{ border: "2px solid black" }}>
+                        <div className=" absolute flex flex-col items-start justify-start w-[250px] h-[70px] top-0 right-0">
                           <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
                             Shared Room
                           </div>
@@ -88,8 +88,8 @@ function OffCampusHousing() {
                             Vivamus in velit interdum, facilisis lectus quis.
                           </div>
                         </div>
-                        <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] absolute bottom-0 left-0 " style={{ border: "2px solid green" }}>
-                          <div className="flex flex-col items-start justify-start w-[250px] h-[70px]" style={{ border: "2px solid pink" }}>
+                        <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] absolute bottom-0 left-0 ">
+                          <div className="flex flex-col items-start justify-start w-[250px] h-[70px]">
                             <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
                               Sublease Property
                             </div>
@@ -98,12 +98,23 @@ function OffCampusHousing() {
                               <br />
                               Vivamus in velit interdum, facilisis lectus quis.
                             </div>
+                            <div className=" absolute flex flex-col items-start justify-start w-[250px] h-[70px] top-0 right-0">
+                              <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
+                                Move-in/Out Support
+                              </div>
+                              <div className=" text-left font-normal text-[12px] leading-[17.16px] tracking-[0.1px] color-[#a1a6a9] whitespace-nowrap top-[40px] absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
+                                Lorem ipsum dolor sit amet, consectetur elit.
+                                <br />
+                                Vivamus in velit interdum, facilisis lectus quis.
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <Img className="absolute w-[1500px] h-[120px] left-[00px] max-w-[100%] bottom-0 opacity-30 brightness-150 contrast-125" src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738990159/react-email-images/l0of0kpf8erffhpywur6.png" alt="city" />
               </Section>
             </div>
           </Container>
