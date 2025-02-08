@@ -63,11 +63,18 @@ function OffCampusHousing() {
                   Start Exploring
                 </button>
                 {/* Inner frame */}
-                <Section className=" absolute flex justify-center items-center w-[543px] h-[274px] top-[1070px] left-[75px] gap-[32px] ">
-                  <Text className=" font-black text-[44px] max-w-[90%] leading-[60px] whitespace-nowrap " style={{ fontFamily: "Roboto, sans-serif" }}>
+                <div className=" absolute flex justify-center w-[543px] h-[274px] top-[1160px] left-[75px] gap-[32px] " style={{ border: "2px solid black" }}>
+                  <div className=" font-black text-[40px] max-w-[90%] leading-[60px] whitespace-nowrap text-center absolute top-0 " style={{ fontFamily: "Roboto, sans-serif" }}>
                     Our Features
-                  </Text>
-                </Section>
+                  </div>
+                  <div className=" absolute flex w-[543px] h-[182px] bottom-0 " style={{ border: "2px solid blue" }}>
+                    <div className="absolute flex w-[543px] h-[70px] " style={{ border: "2px solid red" }}>
+                      <Text className=" rotate-0 max-w-[90%] font-extrabold text-[18px] leading-[28px] text-left whitespace-nowrap " style={{ fontFamily: "Roboto, sans-serif" }}>
+                        Lease Property
+                      </Text>
+                    </div>
+                  </div>
+                </div>
               </Section>
             </div>
           </Container>
