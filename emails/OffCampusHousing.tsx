@@ -67,7 +67,7 @@ function OffCampusHousing() {
                   <div className=" font-black text-[40px] max-w-[90%] leading-[60px] whitespace-nowrap text-center absolute top-0 " style={{ fontFamily: "Roboto, sans-serif" }}>
                     Our Features
                   </div>
-                  <div className=" absolute flex w-[543px] h-[190px] bottom-0 " style={{ border: "2px solid blue" }}>
+                  <div className=" absolute flex w-[543px] h-[180px] bottom-0 " style={{ border: "2px solid blue" }}>
                     <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] " style={{ border: "2px solid red" }}>
                       <div className=" flex flex-col items-start justify-start w-[250px] h-[70px]" style={{ border: "2px solid pink" }}>
                         <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
@@ -86,6 +86,18 @@ function OffCampusHousing() {
                             Lorem ipsum dolor sit amet, consectetur elit.
                             <br />
                             Vivamus in velit interdum, facilisis lectus quis.
+                          </div>
+                        </div>
+                        <div className=" flex flex-col items-start justify-start w-[543px] h-[70px] absolute bottom-0 left-0 " style={{ border: "2px solid green" }}>
+                          <div className="flex flex-col items-start justify-start w-[250px] h-[70px]" style={{ border: "2px solid pink" }}>
+                            <div className=" max-w-[90%] font-extrabold text-[17px] leading-[28px] text-left whitespace-nowrap text-[#515558] top-0 absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
+                              Sublease Property
+                            </div>
+                            <div className=" text-left font-normal text-[12px] leading-[17.16px] tracking-[0.1px] color-[#545558] whitespace-nowrap top-[40px] absolute " style={{ fontFamily: "Roboto, sans-serif" }}>
+                              Lorem ipsum dolor sit amet, consectetur elit.
+                              <br />
+                              Vivamus in velit interdum, facilisis lectus quis.
+                            </div>
                           </div>
                         </div>
                       </div>
