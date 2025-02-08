@@ -116,26 +116,34 @@ function OffCampusHousing() {
                 </div>
                 <Img className="absolute w-[1500px] h-[120px] left-[00px] max-w-[100%] bottom-0 opacity-30 brightness-150 contrast-125" src="https://res.cloudinary.com/ds8slufsu/image/upload/v1738990159/react-email-images/l0of0kpf8erffhpywur6.png" alt="city" />
               </Section>
-              <Section className="absolute w-[598px] h-[378.52px] top-[1755px] left-[71px] " style={{ border: "2px solid black" }}>
+              <Section className="absolute w-[598px] h-[378.52px] top-[1755px] left-[71px] ">
                 <Img className="absolute items-start justify-start top-0" src="https://res.cloudinary.com/ds8slufsu/image/upload/v1739006274/react-email-images/jngmol54pl3olvlhvjen.png" alt="quote1" />
                 <Img className="absolute top-[186px] right-0 gap-[8px] " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1739006541/react-email-images/rvdnkxugfkwkwyco1eda.png" alt="quote2" />
-                <div className=" absolute w-[422px] h-[241.79px] top-[52.72px] left-[88px] gap-[35px]  " style={{ border: "2px solid black" }}>
+                <div className=" absolute w-[422px] h-[241.79px] top-[52.72px] left-[88px] gap-[35px]  ">
                   <div className=" text-center font-normal text-[18px] leading-[28px] tracking-[0%] color-[#343131] " style={{ fontFamily: "Roboto, sans-serif" }}>
                     I really hope you enjoy mycollegelease.com and look <br />
                     forward to discover Off-Campus Housing with us.
                     <br />
                     We will also really appreciate every list you make
                   </div>
-                  <div className=" flex justify-center w-[344px] h-[122.79px] gap-[16px] absolute bottom-0 left-9 " style={{ border: "2px solid black" }}>
+                  <div className=" flex justify-center w-[344px] h-[122.79px] gap-[16px] absolute bottom-0 left-9 ">
                     <Img className=" absolute w-[54px] h-[54px] top-0  " src="https://res.cloudinary.com/ds8slufsu/image/upload/v1739004322/react-email-images/azr7zfustmhywzj09zpz.png" alt="Chris pic" />
                   </div>
-                  <div className="w-[344px] h-[52.79px] gap-[10.79px] absolute flex bottom-0 justify-center right-[40px] " style={{ border: "2px solid black" }}>
+                  <div className="w-[344px] h-[52.79px] gap-[10.79px] absolute flex bottom-0 justify-center right-[40px] ">
                     <div className="font-medium text-[18px] leading-[21.78px] tracking-[-2%] absolute top-0 color-[#343131] " style={{ fontFamily: "Roboto, sans-serif" }}>
                       Christopher Canin
                     </div>
                     <div className=" width-[344px] h-[20px] font-normal text-[14px] leading-[20px] tracking-[0%] absolute bottom-0 color-[#94A3B8] " style={{ fontFamily: "Roboto, sans-serif" }}>
                       Co Founder of mycollegelease
                     </div>
+                  </div>
+                </div>
+              </Section>
+              <div className="absolute w-full top-[2078px] left-[48px] border-t border-[rgba(21,19,19,0.21)] "></div>
+              <Section className="w-[634px] h-[123px] top-[2102px] left-[56px] gap-[33px] absolute justify-start " style={{ border: "2px solid black" }}>
+                <div className="w-[630px] h-[32px] gap-[16px] justify-start absolute top-0 " style={{ border: "2px solid blue" }}>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                    FOLLOW MYCOLLEGELEASE
                   </div>
                 </div>
               </Section>
