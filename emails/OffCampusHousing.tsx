@@ -140,10 +140,22 @@ function OffCampusHousing() {
                 </div>
               </Section>
               <div className="absolute w-full top-[2078px] left-[48px] border-t border-[rgba(21,19,19,0.21)] "></div>
-              <Section className="w-[634px] h-[123px] top-[2102px] left-[56px] gap-[33px] absolute justify-start " style={{ border: "2px solid black" }}>
-                <div className="w-[630px] h-[32px] gap-[16px] justify-start absolute top-0 " style={{ border: "2px solid blue" }}>
-                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+              <Section className="w-[634px] h-[123px] top-[2102px] left-[56px] absolute justify-start flex-col flex " style={{ border: "2px solid black" }}>
+                <div className="w-[630px] h-[32px] gap-[20px] absolute top-0 items-center flex  " style={{ border: "2px solid blue" }}>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
                     FOLLOW MYCOLLEGELEASE
+                  </div>
+                  <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                    VISIT MYCOLLEGELEASE.COM
+                  </div>
+                  <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                    VISIT OUR BLOG
+                  </div>
+                  <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                    UNSUBSCRIBE
                   </div>
                 </div>
               </Section>
