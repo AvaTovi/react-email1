@@ -20,7 +20,7 @@ function OffCampusHousing() {
         <Body>
           <Container>
             {/* Entire Frame */}
-            <div className="top-[3391px] left-[7372px] w-[736px] h-[2309px] rounded-[24px]">
+            <div className="top-[3391px] left-[7372px] w-[736px] h-[2370px] rounded-[24px] ">
               {/* Black Tab */}
               <div className="absolute flex justify-center items-center w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]">
                 <Text className=" text-sm sm:text-md font-medium leading-[24px] text-[#FFFFFF] text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
@@ -139,27 +139,43 @@ function OffCampusHousing() {
                   </div>
                 </div>
               </Section>
-              <div className="absolute w-full top-[2078px] left-[48px] border-t border-[rgba(21,19,19,0.21)] "></div>
-              <Section className="w-[634px] h-[123px] top-[2102px] left-[56px] absolute justify-start flex-col flex " style={{ border: "2px solid black" }}>
-                <div className="w-[630px] h-[32px] gap-[20px] absolute top-0 items-center flex mx-auto  " style={{ border: "2px solid blue" }}>
-                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+              <div style={{ width: "100%", top: "2155px", left: "48px", position: "absolute", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }} />
+              <Section className="w-[634px] h-[123px] top-[2180px] left-[56px] absolute justify-start flex-col flex ">
+                <div className="w-[630px] h-[32px] gap-[23px] absolute top-0 items-center flex mx-auto whitespace-nowrap  ">
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
                     FOLLOW MYCOLLEGELEASE
                   </div>
                   <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
-                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
                     VISIT MYCOLLEGELEASE.COM
                   </div>
                   <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
-                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
                     VISIT OUR BLOG
                   </div>
                   <div style={{ width: "1px", height: "24px", backgroundColor: "#D3D1D1" }}></div>
-                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ border: "2px solid black", fontFamily: "Roboto, sans-serif" }}>
+                  <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
                     UNSUBSCRIBE
                   </div>
                 </div>
-                <div className="w-[488px] h-[58px] gap-[12px] absolute flex items-center justify-center bottom-0 right-[75px] " style={{ border: "2px solid black" }}></div>
+                <div className="w-[488px] h-[58px] gap-[12px] absolute flex items-center justify-center bottom-0 right-[75px] ">
+                  <div className="w-106px  h-[24px] font-normal text-[14px] leading-[24px] tracking-[0%] justify-center top-0 absolute text-[#343131] " style={{ fontFamily: "Roboto, sans-serif " }}>
+                    Spread the word!
+                  </div>
+                  <div className="absolute bottom-0 w-[92px] h-[20px] flex items-center justify-between">
+                    {/* Facebook Icon */}
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" className="w-[18px] h-[20px] text-white" />
+                    {/* X (Twitter) Icon */}
+                    <img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" className="w-[18px] h-[20px] text-white" />
+                    {/* Instagram Icon */}
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" className="w-[18px] h-[20px] border-2 text-white" />
+                  </div>
+                </div>
               </Section>
+              <div style={{ width: "100%", height: "auto", top: "2350px", bottom: 0, position: "absolute" }}>
+                {/*border*/}
+                <div style={{ width: "736px", height: "38px", transform: "rotate(-180deg)", borderTopLeftRadius: "24px", borderTopRightRadius: "24px", backgroundColor: "black", display: "flex", alignItems: "center", justifyContent: "center" }}></div>
+              </div>
             </div>
           </Container>
         </Body>
