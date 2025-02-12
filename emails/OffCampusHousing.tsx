@@ -20,9 +20,9 @@ function OffCampusHousing() {
         <Body>
           <Container>
             {/* Entire Frame */}
-            <div className="top-[3391px] left-[7372px] w-[736px] h-[2370px] rounded-[24px] ">
+            <div className=" w-full max-w-[900px] relative mx-auto h-[2370px] rounded-[24px] ">
               {/* Black Tab */}
-              <div className="absolute flex justify-center items-center w-[736px] h-[38px] bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]">
+              <div className="absolute flex justify-center items-center w-[736px] h-[38px] top-0 left-0 bg-[#141211] rounded-tl-[24px] rounded-tr-[24px]">
                 <Text className=" text-sm sm:text-md font-medium leading-[24px] text-[#FFFFFF] text-center whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   Discover Off-Campus Housing
                 </Text>
@@ -38,7 +38,7 @@ function OffCampusHousing() {
 
               {/* command overflow-hidden makes the border end at this frame and not the div frame */}
               {/* Big Grey Frame */}
-              <Section className="absolute flex w-[700px] h-[1550px] top-[115px] left-[25px] bg-[#F5F5FB] items-center justify-center overflow-hidden">
+              <Section className="absolute flex w-[700px] h-[1550px] top-[115px] left-[20px] bg-[#F5F5FB] items-center justify-center overflow-hidden">
                 <Text className="absolute top-[45px] left-[295px] text-sm sm:text-md font-bold leading-[24px] tracking-[0.02em] text-[#232323] text-center max-w-[90%] whitespace-nowrap" style={{ fontFamily: "Roboto, sans-serif" }}>
                   PLEASE WELCOME
                 </Text>
@@ -57,8 +57,9 @@ function OffCampusHousing() {
                   Introducing the ideal platform for college students to find and <br /> rent apartments near their campus without the hassle.
                 </Text>
                 <button
-                  className="absolute top-[1020px] left-[270px] max-w-[90%] text-sm px-[24px] py-[16px] gap-[10px] border-none outline-none cursor-pointer
-                   bg-[#14A34A] shadow-[0px_8px_26px_0px_#14A34A40] rounded-[8px] leading-[26px] text-[16px] text-white font-semibold whitespace-nowrap text-center"
+                  className="absolute top-[1020px] left-[270px] max-w-[90%] text-sm px-[24px] py-[16px] gap-[10px] 
+                  border-none outline-none cursor-pointer bg-[#14A34A] shadow-[0px_8px_26px_0px_#14A34A40] 
+                  rounded-[8px] leading-[26px] text-[16px] text-white font-semibold whitespace-nowrap text-center z-50"
                   style={{ fontFamily: "Poppins, sans-serif" }}>
                   Start Exploring
                 </button>
@@ -139,7 +140,7 @@ function OffCampusHousing() {
                   </div>
                 </div>
               </Section>
-              <div style={{ width: "100%", top: "2155px", left: "48px", position: "absolute", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }} />
+              <div style={{ width: "634px", top: "2155px", left: "50px", position: "absolute", justifyContent: "center", alignItems: "center", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }} />
               <Section className="w-[634px] h-[123px] top-[2180px] left-[56px] absolute justify-start flex-col flex ">
                 <div className="w-[630px] h-[32px] gap-[23px] absolute top-0 items-center flex mx-auto whitespace-nowrap  ">
                   <div className="font-bold text-[12px] leading-[24px] tracking-[2%] text-[#14A34A] cursor-pointer " style={{ fontFamily: "Roboto, sans-serif" }}>
@@ -172,7 +173,7 @@ function OffCampusHousing() {
                   </div>
                 </div>
               </Section>
-              <div style={{ width: "100%", height: "auto", top: "2350px", bottom: 0, position: "absolute" }}>
+              <div style={{ width: "100%", height: "auto", top: "2350px", left: 0, bottom: 0, position: "absolute" }}>
                 {/*border*/}
                 <div style={{ width: "736px", height: "38px", transform: "rotate(-180deg)", borderTopLeftRadius: "24px", borderTopRightRadius: "24px", backgroundColor: "black", display: "flex", alignItems: "center", justifyContent: "center" }}></div>
               </div>
