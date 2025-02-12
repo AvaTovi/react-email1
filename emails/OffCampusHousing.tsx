@@ -165,11 +165,11 @@ function OffCampusHousing() {
                   </div>
                   <div className="absolute bottom-0 w-[92px] h-[20px] flex items-center justify-between">
                     {/* Facebook Icon */}
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" className="w-[18px] h-[20px] text-white" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" className="w-[18px] h-[20px] text-white, cursor-pointer" />
                     {/* X (Twitter) Icon */}
-                    <img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" className="w-[18px] h-[20px] text-white" />
+                    <img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" className="w-[18px] h-[20px] text-white, cursor-pointer" />
                     {/* Instagram Icon */}
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" className="w-[18px] h-[20px] border-2 text-white" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" className="w-[18px] h-[20px] border-2 text-white, cursor-pointer" />
                   </div>
                 </div>
               </Section>

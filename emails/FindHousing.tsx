@@ -10,7 +10,7 @@ export const FindHousingEmail = () => {
         <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"></Link>
       </Head>
       <Body>
-        <div style={{ width: "736px", height: "2856px", top: "3391px", left: "6336px", borderRadius: "24px" }}>
+        <div style={{ width: "736px", height: "2856px", position: "relative", borderRadius: "24px" }}>
           {/* Parent Frame: Main Container */}
 
           {/* Header Section */}
@@ -20,7 +20,7 @@ export const FindHousingEmail = () => {
           </div>
 
           {/* Red Banner Section */}
-          <div style={{ width: "736px", height: "640px", display: "flex", position: "relative", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
+          <div style={{ width: "736px", height: "640px", display: "flex", position: "absolute", justifyContent: "center", alignItems: "center", flexDirection: "column", backgroundColor: "#FF5A60" }}>
             {/*All the cloud img's on banner*/}
             <div style={{ width: "88px", height: "35.38px", top: "115px", left: "115px", position: "absolute", display: "flex" }}>
               <Img src=" https://res.cloudinary.com/ds8slufsu/image/upload/v1738098725/react-email-images/byn0dlzeeypknsz8guzv.png" alt="cloud1" style={{ justifyContent: "center", alignItems: "center" }}></Img>
@@ -255,7 +255,7 @@ export const FindHousingEmail = () => {
                 <div style={{ fontFamily: "Roboto, sans-serif", fontWeight: 400, fontSize: "14px", lineHeight: "24px", whiteSpace: "nowrap", color: "#343131" }}>Spread the word!</div>
               </div>
               {/*icon frame*/}
-              <div style={{ width: "92px", height: "20px", gap: "16px", position: "absolute", left: "40%", bottom: 0, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0" }}>
+              <div style={{ width: "92px", height: "20px", gap: "16px", position: "absolute", left: "40%", bottom: 0, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0", cursor: "pointer" }}>
                 {/*icons*/}
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" style={{ width: "18px", height: "20px", color: "#FFFFFF" }} />
                 <img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" style={{ width: "18px", height: "20px", color: "#FFFFFF" }} />
