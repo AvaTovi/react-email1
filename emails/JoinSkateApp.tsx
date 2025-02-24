@@ -25,7 +25,7 @@ export const JoinSkateApp = () => {
                 </Text>
               </div>
             </Section>
-            <Section className="mx-auto relative flex items-center justify-center whitespace-nowrap ">
+            <Section className="mx-auto relative flex items-center justify-center whitespace-normal ">
               <Text className="absolute pt-[34px] font-extrabold text-[42px] leading-[52px] text-center" style={{ fontFamily: "Poppins, sans-serif", WebkitTextStroke: "1px black", WebkitTextFillColor: "white" }}>
                 JOIN SKATEAPP NOW!
               </Text>
@@ -34,7 +34,16 @@ export const JoinSkateApp = () => {
                 JOIN SKATEAPP NOW!
               </Text>
             </Section>
-            <div style={{ width: "100%", maxWidth: "550px", position: "relative", margin: "35px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "35px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            <Section className="mx-auto w-full max-w-[560px] relative flex flex-col justify-start items-start  whitespace-normal ">
+              <Text className=" w-full flex-grow font-normal text-[14px] pt-[10px] leading-[24px] text-[#4C4C4C] " style={{ fontFamily: "Poppins, sans-serif" }}>
+                Hello Alanturing,
+              </Text>
+              <Text className="w-full flex-grow text-[14px] leading-[22px] pt-[10px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <span className="font-bold">Jovias</span> was very excited to know that you have something in common <br />
+                in skateboarding, he has invited you to the SkateApp team.
+              </Text>
+            </Section>
           </Container>
         </Body>
       </Tailwind>
