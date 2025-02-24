@@ -26,7 +26,18 @@ export const JoinSkateApp = () => {
               </div>
             </Section>
             <Section className="mx-auto relative flex items-center justify-center whitespace-nowrap ">
-              <Text className="font-extrabold text-[42px] pt-[40px] leading-[52px] text-center text-[#343131] " style={{ fontFamily: "Poppins, sans-serif" }}>
+              <Text
+                className="absolute pt-[34px] font-extrabold text-[42px] leading-[52px] text-center italic"
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  WebkitTextStroke: "1px black", // Black outline
+                  WebkitTextFillColor: "white", // White fill
+                }}>
+                JOIN SKATEAPP NOW!
+              </Text>
+
+              {/* Main Text Layer (Sits Above) */}
+              <Text className="relative pt-[30px] font-extrabold text-[42px] leading-[52px] text-center italic text-[#343131]" style={{ fontFamily: "Poppins, sans-serif" }}>
                 JOIN SKATEAPP NOW!
               </Text>
             </Section>
