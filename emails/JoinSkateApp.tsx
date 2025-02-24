@@ -25,6 +25,11 @@ export const JoinSkateApp = () => {
                 </Text>
               </div>
             </Section>
+            <Section className="mx-auto relative flex items-center justify-center whitespace-nowrap ">
+              <Text className="font-extrabold text-[42px] pt-[40px] leading-[52px] text-center text-[#343131] " style={{ fontFamily: "Poppins, sans-serif" }}>
+                JOIN SKATEAPP NOW!
+              </Text>
+            </Section>
           </Container>
         </Body>
       </Tailwind>
