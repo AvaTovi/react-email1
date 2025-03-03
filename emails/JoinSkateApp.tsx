@@ -76,6 +76,7 @@ export const JoinSkateApp = () => {
                 <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740979868/react-email-images/dwtm1oscdpqvvv0voknj.png" alt="img4" className="absolute pt-[510px] m-[-20px] "></Img>
               </div>
             </div>
+            <Section className="w-full max-w-[600px] h-auto min-h-[262px] bg-[#343131] mx-auto mt-[715px] flex items-center justify-center"></Section>
           </Container>
         </Body>
       </Tailwind>
