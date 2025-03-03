@@ -64,8 +64,13 @@ export const JoinSkateApp = () => {
                 <span className="font-normal text-gray-600 block">or copy and paste this URL into your browser:</span>
                 <span className="font-normal underline block mt-2 decoration-solid decoration-auto text-blue-600">https://skateapp.net/joint/invite/foo</span>
               </Text>
-              <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "50px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
             </Section>
+            <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "50px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            <div className="relative pt-[65px] flex justify-center">
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740976919/react-email-images/pni8mnfagxvds6a4qiqt.png" alt="img1" className="absolute" />
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740977258/react-email-images/m4tgtykjcsasmswc34x6.png" alt="img2" className="absolute pt-[125px]" />
+              <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740977712/react-email-images/g8vdaouwlarenixebpcj.png" alt="img3" className="absolute pt-[170px]" />
+            </div>
           </Container>
         </Body>
       </Tailwind>
