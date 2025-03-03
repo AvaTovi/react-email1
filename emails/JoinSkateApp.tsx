@@ -59,6 +59,13 @@ export const JoinSkateApp = () => {
                 JOIN SKATEAPP
               </Button>
             </Section>
+            <Section className="mx-auto w-full max-w-[560px] relative flex flex-col justify-start items-stretch whitespace-normal">
+              <Text className="w-full font-normal text-[18px] pt-[45px] leading-[22px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <span className="font-normal text-gray-600 block">or copy and paste this URL into your browser:</span>
+                <span className="font-normal underline block mt-2 decoration-solid decoration-auto text-blue-600">https://skateapp.net/joint/invite/foo</span>
+              </Text>
+              <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "50px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            </Section>
           </Container>
         </Body>
       </Tailwind>
