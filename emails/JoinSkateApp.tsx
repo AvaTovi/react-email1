@@ -66,17 +66,27 @@ export const JoinSkateApp = () => {
               </Text>
             </Section>
             <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "50px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            {/* Image Section */}
             <div className="relative flex justify-center">
               <div className="relative pt-[65px] flex justify-center">
                 <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740976919/react-email-images/pni8mnfagxvds6a4qiqt.png" alt="img1" className="absolute" />
                 <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740977258/react-email-images/m4tgtykjcsasmswc34x6.png" alt="img2" className="absolute pt-[125px]" />
                 <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740977712/react-email-images/g8vdaouwlarenixebpcj.png" alt="img3" className="absolute pt-[170px]" />
               </div>
+              {/* Positioned Image Below */}
               <div className="flex justify-start">
-                <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740979868/react-email-images/dwtm1oscdpqvvv0voknj.png" alt="img4" className="absolute pt-[510px] m-[-20px] "></Img>
+                <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1740979868/react-email-images/dwtm1oscdpqvvv0voknj.png" alt="img4" className="absolute pt-[510px] m-[-20px]" />
               </div>
             </div>
-            <Section className="w-full max-w-[600px] h-auto min-h-[262px] bg-[#343131] mx-auto mt-[715px] flex items-center justify-center"></Section>
+            {/* Ensuring Section Appears Below the Div Section */}
+            <Section className="w-full max-w-[600px] h-auto min-h-[262px] mt-[715px] bg-[#343131] mx-auto flex items-start justify-center">
+              <Text className="absolute pt-[16px] font-extrabold text-[40px] leading-[52px] text-center" style={{ fontFamily: "Poppins, sans-serif", WebkitTextStroke: "1px yellow", WebkitTextFillColor: "#343131" }}>
+                THE NEW WAY TO SKATE
+              </Text>
+              <Text className="relative pt-[10px] font-extrabold text-[40px] leading-[52px] text-center text-[#FCFCFF]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                THE NEW WAY TO SKATE
+              </Text>
+            </Section>
           </Container>
         </Body>
       </Tailwind>
