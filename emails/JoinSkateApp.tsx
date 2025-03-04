@@ -79,12 +79,16 @@ export const JoinSkateApp = () => {
               </div>
             </div>
             {/* Ensuring Section Appears Below the Div Section */}
-            <Section className="w-full max-w-[600px] h-auto min-h-[262px] mt-[715px] bg-[#343131] mx-auto flex items-start justify-center">
+            <Section className="w-full max-w-[600px] h-auto min-h-[262px] mt-[715px] bg-[#343131] mx-auto flex justify-center">
               <Text className="absolute pt-[16px] font-extrabold text-[40px] leading-[52px] text-center" style={{ fontFamily: "Poppins, sans-serif", WebkitTextStroke: "1px yellow", WebkitTextFillColor: "#343131" }}>
                 THE NEW WAY TO SKATE
               </Text>
               <Text className="relative pt-[10px] font-extrabold text-[40px] leading-[52px] text-center text-[#FCFCFF]" style={{ fontFamily: "Poppins, sans-serif" }}>
                 THE NEW WAY TO SKATE
+              </Text>
+              <Text className="w-full max-w-[560px] text-[16px] leading-[22px] text-center text-[#FFFFFF]" style={{ fontFamily: "Gilroy, sans-serif" }}>
+                <span className="font-extrabold ">We make your skateboarding experience easier.</span>
+                <span className="font-light mt-2 inline"> Join the community. Explore Skate Spots. Discover and Create Skate Events. </span>
               </Text>
             </Section>
           </Container>
