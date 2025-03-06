@@ -112,16 +112,27 @@ export const JoinSkateApp = () => {
               </Text>
             </Section>
 
-            <div className="w-full flex flex-col items-start max-w-[550px] pt-[30px] mx-auto">
+            <div className="w-full flex flex-col items-start pt-[25px] mx-auto">
               {/* Line */}
               <div style={{ width: "100%", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)" }}></div>
 
-              {/* Text Section */}
-              <Section className="w-full flex flex-row pt-3 justify-start">
+              {/* Text & Icons with Gap */}
+              <div className="w-full flex flex-row items-center justify-between pt-[30px] gap-x-6">
+                {/* Left Side: Text */}
                 <Text className="font-extrabold text-[14px] leading-[24px] text-[#343131]" style={{ fontFamily: "Poppins, sans-serif" }}>
                   Follow Our Journey
                 </Text>
-              </Section>
+
+                {/* Right Side: Social Media Icons */}
+                <div className="flex flex-row items-center gap-3">
+                  <Img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" className="w-[20px] h-[22px] cursor-pointer" />
+
+                  <Img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg" alt="X Logo" className="w-[20px] h-[22px] cursor-pointer" />
+
+                  <Img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" className="w-[20px] h-[22px] border-2 cursor-pointer" />
+                </div>
+              </div>
+
               <div className="pt-[30px]"></div>
             </div>
           </Container>
