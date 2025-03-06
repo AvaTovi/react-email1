@@ -99,6 +99,18 @@ export const JoinSkateApp = () => {
               </div>
               {/* Centered Button */}
             </Section>
+            <Section className="w-full flex flex-col items-center justify-center min-h-[150px] whitespace-normal">
+              <Text className="font-light max-w-[600px] text-[13px] pt-[50px] leading-[22px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                This invitation was intended for alanturing. This invite was sent from 204.13.186.218
+                <br />
+                located in São Paulo, Brazil. If you were not expecting this invitation, you can ignore
+                <br />
+                this email. If you are concerned about your account's safety, please reply to this
+                <br />
+                email to get in touch with us.
+              </Text>
+            </Section>
+            <div style={{ width: "100%", maxWidth: "550px", position: "relative", margin: "35px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
           </Container>
         </Body>
       </Tailwind>
