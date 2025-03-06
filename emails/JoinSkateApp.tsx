@@ -88,9 +88,13 @@ export const JoinSkateApp = () => {
                 THE NEW WAY TO SKATE
               </Text>
 
-              <Text className="w-full max-w-[560px] text-[16px] leading-[22px] text-[#FFFFFF] mt-2" style={{ fontFamily: "Gilroy, sans-serif" }}>
-                <span className="font-extrabold">We make your skateboarding experience easier.</span>
-                <span className="font-light inline"> Join the community. Explore Skate Spots. Discover and Create Skate Events.</span>
+              <Text className="w-full max-w-[560px] text-[17px] leading-[22px] text-[#FFFFFF] mt-2" style={{ fontFamily: "Gilroy, sans-serif" }}>
+                <span className="font-bold">We make your skateboarding experience easier.</span>
+                <span className="font-extralight inline">
+                  {" "}
+                  Join the <br />{" "}
+                </span>
+                <span className="font-extralight inline">community. Explore Skate Spots. Discover and Create Skate Events.</span>
               </Text>
               <div className="w-full flex justify-center mt-8">
                 <Button className="bg-[#FEC902] text-black font-bold w-[200px] h-[36px] rounded-[4px] shadow-[0px_4px_10px_0px_#ECB8B863] px-5 py-3 cursor-pointer flex justify-center items-center" style={{ fontFamily: "Poppins, sans-serif", fontWeight: "700", letterSpacing: "0%", textAlign: "center" }}>
@@ -100,17 +104,26 @@ export const JoinSkateApp = () => {
               {/* Centered Button */}
             </Section>
             <Section className="w-full flex flex-col items-center justify-center min-h-[150px] whitespace-normal">
-              <Text className="font-light max-w-[600px] text-[13px] pt-[50px] leading-[22px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
-                This invitation was intended for alanturing. This invite was sent from 204.13.186.218
-                <br />
-                located in São Paulo, Brazil. If you were not expecting this invitation, you can ignore
-                <br />
-                this email. If you are concerned about your account's safety, please reply to this
-                <br />
-                email to get in touch with us.
+              <Text className="font-light max-w-[600px] text-[14.5px] pt-[50px] leading-[22px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <span className="block mb-1">This invitation was intended for alanturing. This invite was sent from 204.13.186.218</span>
+                <span className="block mb-1">Located in São Paulo, Brazil. If you were not expecting this invitation, you can ignore</span>
+                <span className="block mb-1">This email. If you are concerned about your account's safety, please reply to this</span>
+                <span className="block">Email to get in touch with us.</span>
               </Text>
             </Section>
-            <div style={{ width: "100%", maxWidth: "550px", position: "relative", margin: "35px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+
+            <div className="w-full flex flex-col items-start max-w-[550px] pt-[30px] mx-auto">
+              {/* Line */}
+              <div style={{ width: "100%", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)" }}></div>
+
+              {/* Text Section */}
+              <Section className="w-full flex flex-row pt-3 justify-start">
+                <Text className="font-extrabold text-[14px] leading-[24px] text-[#343131]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                  Follow Our Journey
+                </Text>
+              </Section>
+              <div className="pt-[30px]"></div>
+            </div>
           </Container>
         </Body>
       </Tailwind>
