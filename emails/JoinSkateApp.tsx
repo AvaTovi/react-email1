@@ -79,17 +79,25 @@ export const JoinSkateApp = () => {
               </div>
             </div>
             {/* Ensuring Section Appears Below the Div Section */}
-            <Section className="w-full max-w-[600px] h-auto min-h-[262px] mt-[715px] bg-[#343131] mx-auto flex justify-center">
-              <Text className="absolute pt-[16px] font-extrabold text-[40px] leading-[52px] text-center" style={{ fontFamily: "Poppins, sans-serif", WebkitTextStroke: "1px yellow", WebkitTextFillColor: "#343131" }}>
+            <Section className="w-full max-w-[600px] h-auto min-h-[262px] mt-[715px] bg-[#343131] mx-auto flex flex-col items-center text-center">
+              <Text className="absolute pt-[16px] font-extrabold text-[40px] leading-[52px]" style={{ fontFamily: "Poppins, sans-serif", WebkitTextStroke: "1px yellow", WebkitTextFillColor: "#343131" }}>
                 THE NEW WAY TO SKATE
               </Text>
-              <Text className="relative pt-[10px] font-extrabold text-[40px] leading-[52px] text-center text-[#FCFCFF]" style={{ fontFamily: "Poppins, sans-serif" }}>
+
+              <Text className="relative pt-[10px] font-extrabold text-[40px] leading-[52px] text-[#FCFCFF]" style={{ fontFamily: "Poppins, sans-serif" }}>
                 THE NEW WAY TO SKATE
               </Text>
-              <Text className="w-full max-w-[560px] text-[16px] leading-[22px] text-center text-[#FFFFFF]" style={{ fontFamily: "Gilroy, sans-serif" }}>
-                <span className="font-extrabold ">We make your skateboarding experience easier.</span>
-                <span className="font-light mt-2 inline"> Join the community. Explore Skate Spots. Discover and Create Skate Events. </span>
+
+              <Text className="w-full max-w-[560px] text-[16px] leading-[22px] text-[#FFFFFF] mt-2" style={{ fontFamily: "Gilroy, sans-serif" }}>
+                <span className="font-extrabold">We make your skateboarding experience easier.</span>
+                <span className="font-light inline"> Join the community. Explore Skate Spots. Discover and Create Skate Events.</span>
               </Text>
+              <div className="w-full flex justify-center mt-8">
+                <Button className="bg-[#FEC902] text-black font-bold w-[200px] h-[36px] rounded-[4px] shadow-[0px_4px_10px_0px_#ECB8B863] px-5 py-3 cursor-pointer flex justify-center items-center" style={{ fontFamily: "Poppins, sans-serif", fontWeight: "700", letterSpacing: "0%", textAlign: "center" }}>
+                  DOWNLOAD THE APP
+                </Button>
+              </div>
+              {/* Centered Button */}
             </Section>
           </Container>
         </Body>
