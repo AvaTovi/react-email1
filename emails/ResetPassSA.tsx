@@ -44,9 +44,30 @@ export const ResetPassSA = () => {
                 <span className="font-normal underline block leading-[40px] decoration-solid decoration-auto cursor-pointer text-blue-600">https://skateapp.net/request/reset_password/foo</span>
               </Text>
             </Section>
-            <Section className="mx-auto w-full max-w-[565px] pt-[20px] flex flex-col items-start justify-start ">
+            <Section className="mx-auto w-full max-w-[600px] pt-[20px] flex flex-row items-start justify-start ">
               <Text className="font-extrabold text-[20px] leading-[26px] items-center text-[#343131] " style={{ fontFamily: "Gilroy, sans-serif" }}>
                 Questions?
+              </Text>
+              <Text className="font-normal text-[20px] leading-[26px] items-center text-[#4C4C4C] " style={{ fontFamily: "Poppins, sans-serif" }}>
+                Please let us know if we can assist you by replying to this email <br />
+                or emailing help@skateappteam.com.
+              </Text>
+              <Text className="pt-[25px] text-[16px] leading-[30px] items-center">
+                <span className="font-light text-[#4A4A45] block" style={{ fontFamily: "Poppins, sans-serif" }}>
+                  If you didn’t request a password reset, we recommend you get in touch with our support team and secure your account.
+                </span>
+                <span className="font-extrabold text-red-400" style={{ fontFamily: "Poppins, sans-serif" }}>
+                  {" "}
+                  Call us at +1(213)555-3893
+                </span>
+                <span className="font-light text-[#4A4A45]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                  {" "}
+                  or write to us at
+                </span>
+                <span className="font-extrabold text-red-400" style={{ fontFamily: "Poppins, sans-serif" }}>
+                  {" "}
+                  help@skateappteam.com
+                </span>
               </Text>
             </Section>
           </Container>
