@@ -28,7 +28,7 @@ export const ResetPassSA = () => {
               <Text className="w-full text-[35px] leading-[38px] text-center" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 799 }}>
                 Reset Your Password
               </Text>
-              <Text className="w-full font-normal text-[19px] pt-[15px] leading-[30px] text-center text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+              <Text className="w-full font-normal text-[20px] pt-[15px] leading-[30px] text-center text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
                 We received a request to reset the password for your account. <br />
                 Please click the button below to create a new password.
               </Text>
@@ -37,6 +37,17 @@ export const ResetPassSA = () => {
               <Button className=" bg-[#FD592F] text-white font-bold rounded-md flex justify-center items-center shadow-lg px-16 py-6 cursor-pointer" style={{ fontFamily: "Poppins, sans-serif", fontWeight: "800", fontSize: "15px", lineHeight: "26px", letterSpacing: "0%", borderRadius: "4px", boxShadow: "0px 6px 17px 0px #ECB8B863" }}>
                 Reset My Password
               </Button>
+            </Section>
+            <Section className="mx-auto w-full max-w-[560px] relative flex flex-col justify-start items-stretch whitespace-normal">
+              <Text className="w-full font-normal text-[20px] pt-[45px] leading-[22px] text-[#4C4C4C]" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <span className="font-normal text-gray-600 block">or copy and paste this URL into your browser</span>
+                <span className="font-normal underline block leading-[40px] decoration-solid decoration-auto cursor-pointer text-blue-600">https://skateapp.net/request/reset_password/foo</span>
+              </Text>
+            </Section>
+            <Section className="mx-auto w-full max-w-[565px] pt-[20px] flex flex-col items-start justify-start ">
+              <Text className="font-extrabold text-[20px] leading-[26px] items-center text-[#343131] " style={{ fontFamily: "Gilroy, sans-serif" }}>
+                Questions?
+              </Text>
             </Section>
           </Container>
         </Body>
