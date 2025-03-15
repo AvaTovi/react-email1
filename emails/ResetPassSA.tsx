@@ -64,7 +64,7 @@ export const ResetPassSA = () => {
                   {" "}
                   or write to us at
                 </span>
-                <span className="font-extrabold text-red-400" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <span className="font-extrabold text-red-400 cursor-pointer" style={{ fontFamily: "Poppins, sans-serif" }}>
                   {" "}
                   help@skateappteam.com
                 </span>
@@ -82,7 +82,7 @@ export const ResetPassSA = () => {
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1742073455/react-email-images/m8irf4aw1bfnmrlaavw3.png" alt="apple1" className="w-100 h-auto mr-[-9px] cursor-pointer"></Img>
               <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1742074247/react-email-images/zqssh04t7eiawzcuagix.png" alt="GooglePlay1" className="w-100 h-auto ml-[-9px] cursor-pointer"></Img>
             </div>
-            <div style={{ width: "100%", maxWidth: "560px", position: "relative", margin: "25px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
+            <div style={{ width: "100%", maxWidth: "600px", position: "relative", margin: "25px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
             <div className="w-full flex flex-col items-center justify-between pt-[30px] gap-x-6">
               <Text className="font-light text-[15px] leading-[26px] text-[#4A4A45]" style={{ fontFamily: "Poppins, sans-serif" }}>
                 Spread the word!
