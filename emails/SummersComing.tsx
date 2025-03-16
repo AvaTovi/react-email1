@@ -67,6 +67,21 @@ export const SummersComing = () => {
                   </div>
                 </div>
               </div>
+              <div className="w-full flex justify-center pt-[40px]">
+                <div className="max-w-[575px] w-full flex justify-center items-center">
+                  <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1742163449/react-email-images/wgtjsvlbbcck8vkfvo39.png" alt="frame2" className="w-full object-cover" />
+                </div>
+              </div>
+              <Section className="w-full pt-[20px] flex items-center mt-[-15px] ml-[10px] relative">
+                <Text className="max-w-[550px] font-extrabold text-[16px]  text-[#343131] " style={{ fontFamily: "Gilroy, sans-serif" }}>
+                  Skateboarding is like vertigo if you don't vent it
+                </Text>
+                <Text className="maxc-w-[550px] font-light text-[13.70px] leading-[25px] text-[#4A4A45]" style={{ fontFamily: "Gilroy, sans-serif" }}>
+                  The Boardr Series is a national, all ages and skills skateboarding contest series that is designed
+                  <br />
+                  to provide a fun and fulfilling skateboarding experience for all participants.
+                </Text>
+              </Section>
             </Container>
           </Body>
         </Head>

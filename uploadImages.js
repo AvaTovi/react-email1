@@ -17,7 +17,7 @@ const uploadImage = async (filePath) => {
 
 // To run the code use command: node uploadimages.js
 // Resolve the file path dynamically
-const filePath = path.join(__dirname, "src", "img", "r3.png");
+const filePath = path.join(__dirname, "src", "img", "r4.png");
 
 // Debugging code: Check the resolved file path
 console.log("Resolved file path:", filePath);
