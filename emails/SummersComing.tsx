@@ -76,12 +76,31 @@ export const SummersComing = () => {
                 <Text className="max-w-[550px] font-extrabold text-[16px]  text-[#343131] " style={{ fontFamily: "Gilroy, sans-serif" }}>
                   Skateboarding is like vertigo if you don't vent it
                 </Text>
-                <Text className="maxc-w-[550px] font-light text-[13.70px] leading-[25px] text-[#4A4A45]" style={{ fontFamily: "Gilroy, sans-serif" }}>
+                <Text className="font-light text-[13.70px] leading-[25px] text-[#4A4A45]" style={{ fontFamily: "Gilroy, sans-serif" }}>
                   The Boardr Series is a national, all ages and skills skateboarding contest series that is designed
                   <br />
                   to provide a fun and fulfilling skateboarding experience for all participants.
                 </Text>
+                <div style={{ width: "100%", maxWidth: "600px", position: "relative", margin: "60px auto 0 auto", borderTopWidth: "1px", borderTopStyle: "solid", borderColor: "rgba(21,19,19,0.21)", display: "block" }}></div>
               </Section>
+              <div className="w-full flex flex-col pt-[60px] ">
+                <div className="max-w-[550px] w-full flex justify-start ">
+                  <Img src="https://res.cloudinary.com/ds8slufsu/image/upload/v1742165176/react-email-images/njs4a6016weynmd6xuex.png" alt="phone" className="ml-9" />
+                  <Section className="w-1/2 flex flex-col items-center">
+                    <Text className="font-extrabold text-[24px] pl-[65px] leading-[38px] text-[#343131] whitespace-nowrap" style={{ fontFamily: "Gilory, sans-serif" }}>
+                      CREATE AND EXPLORE
+                      <br /> SKATEBOARD EVENTS
+                    </Text>
+                    <Text className="font-light text-[12px] leading-[24px] pt-[30px] text-[#2E2F30] ">
+                      Explore thousands of skate events around
+                      <br />
+                      you. Create your own events and share them
+                      <br />
+                      with the community and skaters around you.
+                    </Text>
+                  </Section>
+                </div>
+              </div>
             </Container>
           </Body>
         </Head>
