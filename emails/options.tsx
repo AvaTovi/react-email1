@@ -15,13 +15,13 @@ export const options = () => {
               </Text>
             </div>
             <Section className="max-w-[500px] w-full flex justify-center mx-auto">
-              <div style={{ width: "500px", height: "1px", backgroundColor: "gray", marginTop: "25px" }} />
-              <Section className="max-w-[500px] w-full flex flex-row justify-start ">
-                <Text className="font-light text-[12px] ml-[10px] text-center text-[#2E2F30] " style={{ fontFamily: "Gilroy, sans-serif" }}>
+              <div style={{ width: "500px", height: "1px", backgroundColor: "gray" }} />
+              <Section className="max-w-[500px] w-full flex flex-row justify-start items-center ">
+                <Text className="font-light text-[13px] m-[20px] text-center text-[#2E2F30] " style={{ fontFamily: "Gilroy, sans-serif" }}>
                   Skatepark
                 </Text>
               </Section>
-              <div style={{ width: "500px", height: "1px", backgroundColor: "gray", marginTop: "25px" }} />
+              <div style={{ width: "500px", height: "1px", backgroundColor: "gray" }} />
             </Section>
           </Container>
         </Body>
